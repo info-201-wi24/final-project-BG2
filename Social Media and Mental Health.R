@@ -11,10 +11,9 @@ Social_Media_Mental_Health <- Social_Media_Mental_Health[-c(1, 3, 4, 6, 12, 15, 
 Digital_Behavior_and_Mental_Health_Survey_2022  <- Digital_Behavior_and_Mental_Health_Survey_2022 [-c(1)]
 
 # Merge the datasets
-merged_dataset <- bind_rows(Social_Media_Mental_Health, Digital_Behavior_and_Mental_Health_Survey_2022)
 
 # Convert column from one data set to another
-merged_dataset <- merged_dataset %>%
+Social_Media_Mental_Health <- Social_Media_Mental_Health  %>%
   mutate(time_to_frequency = case_when(
     `8. What is the average time you spend on social media every day?` %in% c("Less than an Hour") ~ "Rarely",
     `8. What is the average time you spend on social media every day?` %in% c("Between 1 and 2 hours", "Between 2 and 3 hours") ~ "Occasionally",
@@ -22,6 +21,8 @@ merged_dataset <- merged_dataset %>%
     `8. What is the average time you spend on social media every day?` == "More than 5 hours" ~ "Very often",
     TRUE ~ NA_character_
   ))
+
+merged_dataset <- bind_rows(Social_Media_Mental_Health, Digital_Behavior_and_Mental_Health_Survey_2022) #after
 
 # Replace values in 'Frequency of Social Media Interaction' column
 merged_dataset$`Frequency of Social Media Interaction` <- ifelse(
