@@ -21,18 +21,36 @@ overview_tab <- tabPanel("Instagram's Impact on Mental Health",
 
 viz_1_sidebar <- sidebarPanel(
   h2("Options for Visualization 1"),
-  sliderInput("timeRange", "Time Spent on Instagram (Hours per Day):",
-              min = 0, max = 24, value = c(1, 12), step = 0.5),
-  selectInput("gender", "Gender:",
-              choices = c("All", "Male", "Female")),
-  selectInput("ageGroup", "Age Group:",
-              choices = c("All", "Under 18", "18-24", "25-34", "35-44", "45+"))
+  
+  # Slider for time spent on Instagram
+  sliderInput("timeSpent",
+              "Time Spent on Instagram (hours/day):",
+              min = 0, max = 24, value = c(1, 4)),
+  
+  # Dropdown for user feelings
+  selectInput("userFeelings",
+              "Frequency of Feeling Down:",
+              choices = c("Rarely" = "rarely",
+                          "Sometimes" = "sometimes",
+                          "Often" = "often",
+                          "Always" = "always"),
+              selected = "sometimes"),
+  
+  # Checkbox for seeking validation
+  checkboxGroupInput("seekValidation",
+                     "Seeking Validation Through:",
+                     choices = list("Likes" = "likes",
+                                    "Comments" = "comments",
+                                    "Followers" = "followers"),
+                     selected = c("likes", "comments"))
 )
 
+
 viz_1_main_panel <- mainPanel(
-  h2("Vizualization 1 Title"),
-  # plotlyOutput(outputId = "your_viz_1_output_id")
+  h2("Visualization 1: Impact of Instagram Usage on Mental Health"),
+  plotOutput(outputId = "viz1Plot")
 )
+
 
 viz_1_tab <- tabPanel("Instagram Usage & Mental Health",
   sidebarLayout(
