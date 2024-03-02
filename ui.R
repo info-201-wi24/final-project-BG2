@@ -14,9 +14,19 @@ overview_tab <- tabPanel("Instagram's Impact on Mental Health",
 
 ## VIZ 1 TAB INFO
 
+#Our investigation centers on three pivotal questions: 
+#How does the amount of time spent on Instagram correlate with the user's mental health outcomes?
+#How often does user feel down correlated with the time they spend on Instagram? 
+#Lastly, how often do people look to seek validation from features of Instagram??
+
 viz_1_sidebar <- sidebarPanel(
-  h2("Options for graph"),
-  #TODO: Put inputs for modifying graph here
+  h2("Options for Visualization 1"),
+  sliderInput("timeRange", "Time Spent on Instagram (Hours per Day):",
+              min = 0, max = 24, value = c(1, 12), step = 0.5),
+  selectInput("gender", "Gender:",
+              choices = c("All", "Male", "Female")),
+  selectInput("ageGroup", "Age Group:",
+              choices = c("All", "Under 18", "18-24", "25-34", "35-44", "45+"))
 )
 
 viz_1_main_panel <- mainPanel(
@@ -24,19 +34,27 @@ viz_1_main_panel <- mainPanel(
   # plotlyOutput(outputId = "your_viz_1_output_id")
 )
 
-viz_1_tab <- tabPanel("Viz 1 tab title",
+viz_1_tab <- tabPanel("Instagram Usage & Mental Health",
   sidebarLayout(
     viz_1_sidebar,
     viz_1_main_panel
   )
 )
 
+
 ## VIZ 2 TAB INFO
 
 viz_2_sidebar <- sidebarPanel(
-  h2("Options for graph"),
-  #TODO: Put inputs for modifying graph here
+  h2("Options for Visualization 2"),
+  selectInput("usageWithoutPurpose", "Usage Without Specific Purpose:",
+              choices = c("All", "Never", "Rarely", "Sometimes", "Often", "Always")),
+  selectInput("distractionLevel", "Distraction Level When Busy:",
+              choices = c("All", "Not at all", "Slightly", "Moderately", "Very", "Extremely")),
+  selectInput("validationSeeking", "Seeking Validation from Social Media:",
+              choices = c("All", "Never", "Rarely", "Occasionally", "Frequently", "Very often"))
 )
+
+
 
 viz_2_main_panel <- mainPanel(
   h2("Vizualization 2 Title"),
@@ -78,7 +96,7 @@ conclusion_tab <- tabPanel("Conclusion Tab Title",
 
 
 
-ui <- navbarPage("Example Project Title",
+ui <- navbarPage("Social Medias Affect On Mental Health",
   overview_tab,
   viz_1_tab,
   viz_2_tab,
