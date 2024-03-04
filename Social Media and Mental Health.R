@@ -53,3 +53,6 @@ merged_dataset <- merged_dataset %>%
     `On a scale from 1 to 5, how often do you face issues regarding sleep?` = `20. On a scale of 1 to 5, how often do you face issues regarding sleep?`
 
   )
+
+write_csv(merged_dataset, "merged_data_copy.csv")
+
