@@ -105,7 +105,7 @@ viz_2_tab <- tabPanel("Viz 2 tab title",
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
 # Page 3 - begin  
-
+#Relationship between frequency of look to seek validation on social media and length of time using social media
 
 ## VIZ 3 TAB INFO
 
