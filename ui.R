@@ -1,6 +1,8 @@
 library(shiny)
-library(plotly)
+library(ggplot2)
 library(dplyr)
+library(readr)
+library(plotly)
 
 ## OVERVIEW TAB INFO
 
@@ -23,6 +25,8 @@ overview_tab <- tabPanel("Instagram's Impact on Mental Health",
 ## VIZ 1 TAB INFO
 # Define UI
 # Visualization 1 Sidebar with Inputs
+
+
 viz_1_sidebar <- sidebarPanel(
   h2("Options for Visualization 1"),
   
@@ -44,7 +48,7 @@ viz_1_tab <- tabPanel("Instagram Usage & Mental Health Impact",
                       sidebarLayout( viz_1_sidebar,viz_1_main_panel))
 
 #ui <- navbarPage("Social Media's Impact On Mental Health",
-               #  viz_1_tab,
+#                viz_1_tab,
 #)
 
 
