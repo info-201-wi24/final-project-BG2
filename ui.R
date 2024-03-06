@@ -6,7 +6,7 @@ library(plotly)
 
 ## OVERVIEW TAB INFO
 
-overview_tab <- tabPanel("Instagram's Impact on Mental Health",
+overview_tab <- tabPanel("Social media's Impact on Mental Health",
   h1("Introduction"),
   p("Social medias have continued affecting people’s mental health in the modern society. We aim to unravel the complex relationship between social media usage and its effects on users' psychological well-being. In an era where social media platforms dominate our daily interactions and self-perception, with their emphasis on visually curated lives, social media like twitter or instagram stands out for their potential to influence mental health. This journey seeks to explore and visualize the nuanced ways in which continuous exposure to idealized images, the pursuit of likes, and the pressure to maintain a perfect online persona contribute to increased feelings of anxiety, depression, and loneliness among its users."),
   p("Our investigation centers on three pivotal questions: How does the amount of time spent on Instagram correlate with the user's mental health outcomes? How often does user feel down correlated with the time they spend on Instagram? Lastly, Relationship between frequency of look to seek validation on social media and length of time using social media?"),
@@ -104,25 +104,30 @@ viz_2_tab <- tabPanel("Effect of Screen Time on Mental Health",
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
 # Page 3 - begin  
-#Relationship between frequency of look to seek validation on social media and length of time using social media
+#Relationship between frequency of look to seek validation on social media and length of time using social media base on their relationship Status.	` 
 
 ## VIZ 3 TAB INFO
-
 viz_3_sidebar <- sidebarPanel(
-  h2("Options for graph"),
-  #TODO: Put inputs for modifying graph here
+  h2("Social Media Validation and Usage Time Based on Relationship Status"),
+  checkboxGroupInput("relationship_status", "Relationship Status",
+                     choices = c("In a relationship", "Single", "Married", "Divorced"),
+                     selected = c("In a relationship", "Single", "Married", "Divorced")),
+  selectInput("time_spent", "Average Time Spent on Social Media",
+              choices = c("Less than an Hour", "Between 1 and 2 hours", "Between 2 and 3 hours", 
+                          "Between 3 and 4 hours", "Between 4 and 5 hours", "More than 5 hours")),
+  sliderInput("validation_freq", "Frequency of Seeking Validation",
+              min = 1, max = 5, value = c(1, 5), step = 1)
 )
-
 viz_3_main_panel <- mainPanel(
-  h2("Vizualization 3 Title"),
-  # plotlyOutput(outputId = "your_viz_1_output_id")
+  h2("Vizualization 3: relation plot"),
+  plotOutput("relationshipPlot")
 )
 
-viz_3_tab <- tabPanel("Viz 3 tab title",
-  sidebarLayout(
-    viz_3_sidebar,
-    viz_3_main_panel
-  )
+viz_3_tab <- tabPanel("Social Media Validation and Usage Time Based on Relationship Status",
+                      sidebarLayout(
+                        viz_3_sidebar,
+                        viz_3_main_panel
+                      )
 )
 
 
