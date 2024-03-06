@@ -4,10 +4,17 @@ library(dplyr)
 library(readr)
 library(plotly)
 library(viridis)
+library(readxl)
+library(pheatmap)
+
+
 
 
 
 smmh <- read_csv("smmh.csv", show_col_types = FALSE)
+data <- readxl::read_excel("Digital Behavior and Mental Health Survey 2022.xlsx")
+
+
 server <- function(input, output) {
   
   #session
@@ -58,21 +65,19 @@ server <- function(input, output) {
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
   # Page 2 - begin 
-  
-    
-    output$scatterPlot <- renderPlotly({
-      plot_ly(merged_dataset, 
-              x = ~`Frequency of Social Media Interaction`, 
-              y = ~`Impact on Mental Health (Score)`,
-              type = "box") %>%
-        layout(title = "",
-               xaxis = list(title = "Frequency of Social Media Interaction"),
-               yaxis = list(title = "Impact on Mental Health (Score 1-5)"))
-      
-    })
+  output$plot <- renderPlot({
+    filtered_data <- if (input$gender == "All") {
+      data
+    } else {
+      data %>% 
+        filter(Gender == input$gender)
+    }
+      ggplot(filtered_data, aes(x = Age, y = `Impact on Mental Health (Score)`)) +
+      geom_point(color = "blue") +
+      labs(x = "Age", y = "Impact on Mental Health (Score)") +
+      theme_minimal()
+  })
 
-
-  
   
 # Page 2 - end
 #--------------------------------------------------------------------------------------------------------------------------------------------------------

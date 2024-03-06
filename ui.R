@@ -3,6 +3,7 @@ library(ggplot2)
 library(dplyr)
 library(readr)
 library(plotly)
+library(shinythemes)
 
 ## OVERVIEW TAB INFO
 
@@ -67,29 +68,31 @@ ui <- navbarPage("Social Medias Affect On Mental Health",
 
 ## VIZ 2 TAB INFO
 # Side bar info
-viz_2_sidebar <- sidebarPanel(
-  h2("What does this mean?", style = "margin: auto;"),
-  p("In exploring the impact of screen time on mental health, our analysis suggests that there is no clear direct correlation between the two factors based on the median results (to void outliers). After careful examination of the dataset, it becomes apparent that screentime usage does not consistently align with corresponding shifts in mental health scores. This relationship shows the complexity of variables contributing to mental health, emphasizing that screen time alone may not be a decisive indicator. While the data doesn't reveal a straightforward connection, it prompts further investigation into the multitude of variables that collectively shape individuals' mental health experiences."),
-  p("Median (Rarely, Occasionaly, Frequently, Very Often): 4, 4.25, 3.5, 3.35"),
-  style = "width: 240px; height: auto; display: flex; flex-direction: column; justify-content: center; align-items: center;"
-)
-# Main panel info
-viz_2_main_panel <- mainPanel(
-  h2("Effect of Screen Time on Mental Health"),
-  plotlyOutput("scatterPlot")
-)
-
-viz_2_tab <- tabPanel("Effect of Screen Time on Mental Health",
-                      sidebarLayout(
-                        viz_2_sidebar,
-                        viz_2_main_panel
-                      )
-)
 
 
 # Page 2 - end
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
 
+ui <- navbarPage("Mental Health Impact Dashboard",
+                 theme = shinytheme("flatly"),  # Apply a theme for better appearance
+              viz_2_tab  <- tabPanel("Age Health",
+                          fluidPage(
+                            titlePanel("ScatterPlot: Distribution of Mental Health Impact Scores based on social media users"),
+                            sidebarLayout(
+                              sidebarPanel(
+                                h3("Filter by Gender"),
+                                selectInput("gender", "Gender",
+                                            choices = c("All", "Male", "Female"),
+                                            selected = "All")
+                              ),
+                              mainPanel(
+                                plotOutput("plot")
+                              )
+                            )
+                          )
+                 ),
+             
+)
 
 #Notes: 
 
