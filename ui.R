@@ -14,7 +14,7 @@ overview_tab <- tabPanel("Social media's Impact on Mental Health",
   p("Another dataset is from ", a("Kaggle data", href="https://www.kaggle.com/datasets/souvikahmed071/social-media-and-mental-health"), ". This dataset was collected through a Statistics course at a university, collecting data on the local campus and processed the information through a machine learning algorithm that was later used to create a predictive model to see if someone needs professional help or not. The survey has a bunch of different ways of actually narrowing down the symptoms that generate data which really homes in on the overall trend of social media use."),
   p("Our dataset may show a certain composition variable distribution, where the proportion of data points from various demographic segments, such as gender and socioeconomic status, does not reflect the broader user base. This uneven distribution may lead to skewed interpretations of the impact on mental health, as it does not accurately represent the diverse experiences of all users."),
   imageOutput("myImage")                      
-  )
+)
 
 
 
@@ -129,7 +129,6 @@ viz_3_tab <- tabPanel("Social Media Validation and Usage Time Based on Relations
                         viz_3_main_panel
                       )
 )
-
 
 # Page 3 - end
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
