@@ -36,7 +36,7 @@ merged_dataset <- merged_dataset %>%
   mutate(`1. What is your age?` = ifelse(is.na(`1. What is your age?`), Age, `1. What is your age?`))
 
 # Delete unnecessary columns
-merged_dataset <- select(merged_dataset, -time_to_frequency, -5, -Age, -Gender)
+merged_dataset <- select(merged_dataset, -time_to_frequency, -5, -Age)
 # Rename columns
 merged_dataset <- merged_dataset %>%
   rename(
