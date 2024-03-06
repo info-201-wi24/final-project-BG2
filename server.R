@@ -4,10 +4,17 @@ library(dplyr)
 library(readr)
 library(plotly)
 library(viridis)
+library(readxl)
+library(pheatmap)
+
+
 
 
 
 smmh <- read_csv("smmh.csv", show_col_types = FALSE)
+data <- readxl::read_excel("Digital Behavior and Mental Health Survey 2022.xlsx")
+
+
 server <- function(input, output) {
   
   #session
@@ -43,11 +50,11 @@ server <- function(input, output) {
   })
   
   
-
   
-# Page 1 - end 
-#--------------------------------------------------------------------------------------------------------------------------------------------------------
-
+  
+  # Page 1 - end 
+  #--------------------------------------------------------------------------------------------------------------------------------------------------------
+  
   
   
   
@@ -55,80 +62,72 @@ server <- function(input, output) {
   
   
   
-
-#--------------------------------------------------------------------------------------------------------------------------------------------------------
-  # Page 2 - begin 
   
-    
-  output$scatterPlot <- renderPlotly({
-    selected_frequencies <- input$frequencies
-    
-    if (is.null(selected_frequencies)) {
-      selected_frequencies <- unique(merged_dataset$`Frequency of Social Media Interaction`)
+  #--------------------------------------------------------------------------------------------------------------------------------------------------------
+  # Page 2 - begin 
+  output$plot <- renderPlot({
+    filtered_data <- if (input$gender == "All") {
+      data
+    } else {
+      data %>% 
+        filter(Gender == input$gender)
     }
-    
-    filtered_data <- merged_dataset %>%
-      filter(`Frequency of Social Media Interaction` %in% selected_frequencies)
-    
-    ggplot_obj <- ggplot(filtered_data, 
-                         aes(x = `Frequency of Social Media Interaction`, 
-                             y = `Impact on Mental Health (Score)`)) +
-      geom_boxplot() +
-      labs(title = "",
-           x = "Frequency of Social Media Interaction",
-           y = "Impact on Mental Health (Score 1-5)") +
+    ggplot(filtered_data, aes(x = Age, y = `Impact on Mental Health (Score)`)) +
+      geom_point(color = "blue") +
+      labs(x = "Age", y = "Impact on Mental Health (Score)") +
       theme_minimal()
+  })
+  
+  
+  # Page 2 - end
+  #--------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+  
+  #Notes: 
+  
+  
+  #--------------------------------------------------------------------------------------------------------------------------------------------------------
+  # Page 3 - begin 
+  
+  output$myImage <- renderImage({
+    list(src = "IMG_3156.WEBP",
+         align = "center",
+         width = "100%",
+         height = 500)
     
-    ggplotly(ggplot_obj)
+  }, deleteFile = F)
+  
+  filtered_data <-reactive({
+    merged_dataset
+  })
+  
+  filtered_smmh <-reactive({
+    smmh[smmh$`3. Relationship Status` %in% input$relationship_status &
+           smmh$`8. What is the average time you spend on social media every day?` == input$time_spent, ]
+  })
+  
+  output$relationshipPlot <- renderPlot({
+    filtered_smmh <- smmh %>%
+      filter(`3. Relationship Status` %in% input$relationship_status &
+               `8. What is the average time you spend on social media every day?` == input$time_spent)
+    
+    ggplot(filtered_smmh, aes(x = `17. How often do you look to seek validation from features of social media?`, fill = `3. Relationship Status`)) +
+      geom_bar(position = "dodge") +
+      labs(x = "Frequency of Seeking Validation", y = "Count", title = "Social Media Validation and Usage Time Based on Relationship Status") +
+      theme_minimal()
   })
   
   
   
-# Page 2 - end
-#--------------------------------------------------------------------------------------------------------------------------------------------------------
-
   
-  #Notes: 
-  
-
-#--------------------------------------------------------------------------------------------------------------------------------------------------------
-    # Page 3 - begin 
-    
-    output$myImage <- renderImage({
-      list(src = "IMG_3156.WEBP",
-           align = "center",
-           width = "100%",
-           height = 500)
-      
-    }, deleteFile = F)
-    
-    filtered_data <-reactive({
-      merged_dataset
-    })
-    
-    filtered_smmh <-reactive({
-      smmh[smmh$`3. Relationship Status` %in% input$relationship_status &
-             smmh$`8. What is the average time you spend on social media every day?` == input$time_spent, ]
-    })
-    
-    output$relationshipPlot <- renderPlot({
-      ggplot(filtered_smmh(), aes(x = `17. How often do you look to seek validation from features of social media?`, fill = `3. Relationship Status`)) +
-        geom_bar(position = "dodge") +
-        labs(x = "Frequency of Seeking Validation", y = "Count", title = "Social Media Validation and Usage Time Based on Relationship Status") +
-        theme_minimal()
-    })
-    
-    
-    
-  
-# Page 3 - end
-#--------------------------------------------------------------------------------------------------------------------------------------------------------
+  # Page 3 - end
+  #--------------------------------------------------------------------------------------------------------------------------------------------------------
   #Notes: 
   
   
   
-
   
-#--------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+  #--------------------------------------------------------------------------------------------------------------------------------------------------------
   
 }

@@ -3,17 +3,18 @@ library(ggplot2)
 library(dplyr)
 library(readr)
 library(plotly)
+library(shinythemes)
 
 ## OVERVIEW TAB INFO
 
 overview_tab <- tabPanel("Introduction",
-  h1("Introduction"),
-  p("Social medias have continued affecting people’s mental health in the modern society. We aim to unravel the complex relationship between social media usage and its effects on users' psychological well-being. In an era where social media platforms dominate our daily interactions and self-perception, with their emphasis on visually curated lives, social media like twitter or instagram stands out for their potential to influence mental health. This journey seeks to explore and visualize the nuanced ways in which continuous exposure to idealized images, the pursuit of likes, and the pressure to maintain a perfect online persona contribute to increased feelings of anxiety, depression, and loneliness among its users."),
-  p("Our investigation centers on three pivotal questions: How does the amount of time spent on Instagram correlate with the user's mental health outcomes? How often does user feel down correlated with the time they spend on Instagram? Lastly, Relationship between frequency of look to seek validation on social media and length of time using social media?"),
-  p("Our team analyzed data from one dataset from ", a("Mendeley data", href="https://data.mendeley.com/datasets/jxkcm7s638/1"), ". The data was collected through the Kisii University College Faculty of Health Sciences. Online surveys and in campus data collection methods were used. John Ngugi analyzed the behaviors of participants and based it off of a self-report score and an actual score on their mental health from a different survey that would rank their actual well being to see if there were any biases that would cause people to say different."),
-  p("Another dataset is from ", a("Kaggle data", href="https://www.kaggle.com/datasets/souvikahmed071/social-media-and-mental-health"), ". This dataset was collected through a Statistics course at a university, collecting data on the local campus and processed the information through a machine learning algorithm that was later used to create a predictive model to see if someone needs professional help or not. The survey has a bunch of different ways of actually narrowing down the symptoms that generate data which really homes in on the overall trend of social media use."),
-  p("Our dataset may show a certain composition variable distribution, where the proportion of data points from various demographic segments, such as gender and socioeconomic status, does not reflect the broader user base. This uneven distribution may lead to skewed interpretations of the impact on mental health, as it does not accurately represent the diverse experiences of all users."),
-  imageOutput("myImage")                      
+                         h1("Introduction"),
+                         p("In today's digital age, the impact of social media on mental health is a topic of growing concern. Our project delves into the intricate relationship between social media usage patterns and their effects on psychological well-being."),
+                         p("Social media platforms play a significant role in shaping individuals' perceptions of themselves and their surroundings. The constant exposure to curated images and the pursuit of likes can contribute to negative emotions."),
+                         p("Our analysis revolves around three key questions: How does the frequency of Instagram usage correlate with users' mental health outcomes? Is there a correlation between feelings of depression and the time spent on social media? And what is the relationship between the frequency of seeking validation on social media and the duration of usage?"),
+                         p("To conduct our research, we utilized datasets from reputable sources. One dataset was obtained from Mendeley Data, collected by the Kisii University College Faculty of Health Sciences through online surveys and campus data collection methods. Additionally, we utilized a dataset from Kaggle, which originated from a university statistics course. This dataset was processed using machine learning algorithms to predict the need for professional help based on social media usage patterns."),
+                         p("It's important to note potential biases in our dataset, such as uneven distribution across demographic segments like gender and socioeconomic status. This non-representative sample may skew interpretations of the relationship between social media usage and mental health."),
+                         imageOutput("myImage")                      
 )
 
 
@@ -28,24 +29,24 @@ overview_tab <- tabPanel("Introduction",
 
 
 ui <- navbarPage("Social Medias Affect On Mental Health",
- overview_tab,
- # Viz 1 Tab - I assume this is where you want your usageEmotionPlot to go
- viz_1_tab <- tabPanel("Usage & Emotion",
- sidebarLayout(
-   sidebarPanel(
-     h2("Filters"),
-     selectInput("purposeless_usage", "Usage Without Specific Purpose",
-                 choices = c("Very Rarely" = 1, "Rarely" = 2, "Occasionally" = 3, 
-                             "Frequently" = 4, "Very Frequently" = 5)),
-     sliderInput("depression_level", "Feelings of Depression",
-                 min = 1, max = 5, value = c(1, 5))
-   ),
-   mainPanel(
-     h2("Visualization"),
-     plotOutput("usageEmotionPlot"))
-  )
-   ),
- )
+                 overview_tab,
+                 # Viz 1 Tab - I assume this is where you want your usageEmotionPlot to go
+                 viz_1_tab <- tabPanel("Usage & Emotion",
+                                       sidebarLayout(
+                                         sidebarPanel(
+                                           h2("Filters"),
+                                           selectInput("purposeless_usage", "Usage Without Specific Purpose",
+                                                       choices = c("Very Rarely" = 1, "Rarely" = 2, "Occasionally" = 3, 
+                                                                   "Frequently" = 4, "Very Frequently" = 5)),
+                                           sliderInput("depression_level", "Feelings of Depression",
+                                                       min = 1, max = 5, value = c(1, 5))
+                                         ),
+                                         mainPanel(
+                                           h2("Visualization"),
+                                           plotOutput("usageEmotionPlot", height = "400px"))
+                                       )
+                 ),
+)
 
 
 
@@ -64,32 +65,34 @@ ui <- navbarPage("Social Medias Affect On Mental Health",
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
 # Page 2 - begin 
 
+
 ## VIZ 2 TAB INFO
 # Side bar info
-viz_2_sidebar <- sidebarPanel(
-  h2("", style = "margin: auto;"),
-  style = "width: 240px; height: auto; display: flex; flex-direction: column; justify-content: center; align-items: center;",
-  checkboxGroupInput("frequencies", "Select Screentime Usage", 
-                     choices = unique(merged_dataset$`Frequency of Social Media Interaction`), 
-                     selected = unique(merged_dataset$`Frequency of Social Media Interaction`))
-)
-# Main panel info
-viz_2_main_panel <- mainPanel(
-  h2("Effect of Screen Time on Mental Health"),
-  plotlyOutput("scatterPlot")
-)
-
-viz_2_tab <- tabPanel("Effect of Screen Time on Mental Health",
-                      sidebarLayout(
-                        viz_2_sidebar,
-                        viz_2_main_panel
-                      )
-)
 
 
 # Page 2 - end
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
 
+ui <- navbarPage("Impact Analysis Dashboard",
+                 theme = shinytheme("flatly"),  # Apply a theme for better appearance
+                 viz_2_tab  <- tabPanel("Age-based Impact",
+                                        fluidPage(
+                                          titlePanel("ScatterPlot: Distribution of Mental Health Impact Scores based on social media users"),
+                                          sidebarLayout(
+                                            sidebarPanel(
+                                              h3("Filter by Gender"),
+                                              selectInput("gender", "Gender",
+                                                          choices = c("All", "Male", "Female"),
+                                                          selected = "All")
+                                            ),
+                                            mainPanel(
+                                              plotOutput("plot")
+                                            )
+                                          )
+                                        )
+                 ),
+                 
+)
 
 #Notes: 
 
@@ -108,7 +111,7 @@ viz_3_sidebar <- sidebarPanel(
               choices = c("Less than an Hour", "Between 1 and 2 hours", "Between 2 and 3 hours", 
                           "Between 3 and 4 hours", "Between 4 and 5 hours", "More than 5 hours")),
   ###sliderInput("validation_freq", "Frequency of Seeking Validation",
-              ###min = 1, max = 5, value = c(1, 5), step = 1)
+  ###min = 1, max = 5, value = c(1, 5), step = 1)
 )
 viz_3_main_panel <- mainPanel(
   h2("Vizualization 3: relation plot"),
@@ -137,9 +140,22 @@ viz_3_tab <- tabPanel("Social Media Engagement by Relationship Status",
 
 ## CONCLUSIONS TAB INFO
 
-conclusion_tab <- tabPanel("Conclusion Tab Title",
- h1("Some title"),
- p("some conclusions")
+conclusion_tab <- tabPanel("Our Findings",
+                           h1("SOur FIndings"),
+                           p("From what we observed, the data in both datasets show a 
+   clear sighn of social media being a net negative on mentak health. In more interesting ways 
+   than just one. For example in the 'Usage & Emotion' visualizaiton, the data points 
+   to us that as we increase how frequent the social media users engange, the average 
+   feelings of depression increased with them. When we delved a bit deeper and studied
+   exactly what age and gender was being affected the most, we observed something very 
+   interesting. Overall it seems like older individuals do much better in this social media 
+   age because their mental health scores were through the roofs. Contrasting with younger individuals, 
+   the score gets lower. Gender only really gave instances of outliers but younger aged females did alot better 
+   than younger aged males did. Finally the most comprehensive finding was what all that means in the context of 
+   active attention seeking through the lens of relationship status. The trends told us that the more hours people 
+   spend on social media, the more attention seeking behaviors they often times show. Now the most interesting thing about
+   the data was how married individuals showed sighns of seeking validation when only low hours were spent on social media vs single
+   individuals showing sighns of validation seeking the higher the engaement got. ")
 )
 
 # page 4 - end
@@ -147,9 +163,10 @@ conclusion_tab <- tabPanel("Conclusion Tab Title",
 
 
 ui <- navbarPage("Social Medias Affect On Mental Health",
-  overview_tab,
-  viz_1_tab,
-  viz_2_tab,
-  viz_3_tab,
-  conclusion_tab
+                 theme = shinytheme("flatly"),  # Apply a theme for better appearance
+                 overview_tab,
+                 viz_1_tab,
+                 viz_2_tab,
+                 viz_3_tab,
+                 conclusion_tab
 )
