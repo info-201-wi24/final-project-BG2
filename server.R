@@ -81,24 +81,16 @@ server <- function(input, output) {
   
     
     output$scatterPlot <- renderPlotly({
-      merged_data <- merged_dataset()
-      
-      # Order dataset column
-      merged_data$Frequency.of.Social.Media.Interaction <- factor(
-        merged_data$Frequency.of.Social.Media.Interaction,
-        levels = c("Rarely", "Occasionally", "Frequently", "Very Often"),
-        ordered = TRUE
-      )
-      # Make the plot
-      plot_ly(merged_data, 
-              x = ~`Frequency.of.Social.Media.Interaction`, 
-              y = ~`Impact.on.Mental.Health..Score.`,
-              type = "box", mode = "markers", 
-              marker = list(size = 5, opacity = 0.5)) %>%
+      plot_ly(merged_dataset, 
+              x = ~`Frequency of Social Media Interaction`, 
+              y = ~`Impact on Mental Health (Score)`,
+              type = "box") %>%
         layout(title = "",
                xaxis = list(title = "Frequency of Social Media Interaction"),
                yaxis = list(title = "Impact on Mental Health (Score 1-5)"))
+      
     })
+
 
   
   
@@ -118,30 +110,9 @@ server <- function(input, output) {
       theme_minimal()
   })
   
-}
                                        
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   
 # Page 3 - end
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
