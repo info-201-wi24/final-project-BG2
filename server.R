@@ -117,7 +117,7 @@ server <- function(input, output) {
   
 
 output$relationshipPlot <- renderPlot({
- merged_data <- merged_dataset()
+ smmh_dataset <- read.csv("smmh.csv")
   # Filter data based on input
   filtered_data <- data[data$`3. Relationship Status` %in% input$relationship_status &
                           data$`8. What is the average time you spend on social media every day?` == input$time_spent, ]
