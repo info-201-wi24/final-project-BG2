@@ -43,8 +43,8 @@ ui <- navbarPage("Social Medias Affect On Mental Health",
    ),
    mainPanel(
      h2("Visualization"),
-     plotOutput("usageEmotionPlot"))
-  )
+     plotOutput("usageEmotionPlot", height = "400px"))
+   )
    ),
  )
 
@@ -150,9 +150,10 @@ conclusion_tab <- tabPanel("Conclusion Tab Title",
 
 
 ui <- navbarPage("Social Medias Affect On Mental Health",
-  overview_tab,
-  viz_1_tab,
-  viz_2_tab,
-  viz_3_tab,
-  conclusion_tab
+                 theme = shinytheme("flatly"),  # Apply a theme for better appearance
+                 overview_tab,
+                 viz_1_tab,
+                 viz_2_tab,
+                 viz_3_tab,
+                 conclusion_tab
 )

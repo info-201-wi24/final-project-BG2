@@ -72,7 +72,7 @@ server <- function(input, output) {
       data %>% 
         filter(Gender == input$gender)
     }
-      ggplot(filtered_data, aes(x = Age, y = `Impact on Mental Health (Score)`)) +
+    ggplot(filtered_data, aes(x = Age, y = `Impact on Mental Health (Score)`)) +
       geom_point(color = "blue") +
       labs(x = "Age", y = "Impact on Mental Health (Score)") +
       theme_minimal()
@@ -106,12 +106,16 @@ server <- function(input, output) {
              smmh$`8. What is the average time you spend on social media every day?` == input$time_spent, ]
     })
     
-    output$relationshipPlot <- renderPlot({
-      ggplot(filtered_smmh(), aes(x = `17. How often do you look to seek validation from features of social media?`, fill = `3. Relationship Status`)) +
-        geom_bar(position = "dodge") +
-        labs(x = "Frequency of Seeking Validation", y = "Count", title = "Social Media Validation and Usage Time Based on Relationship Status") +
-        theme_minimal()
-    })
+   output$relationshipPlot <- renderPlot({
+    filtered_smmh <- smmh %>%
+      filter(`3. Relationship Status` %in% input$relationship_status &
+               `8. What is the average time you spend on social media every day?` == input$time_spent)
+    
+    ggplot(filtered_smmh, aes(x = `17. How often do you look to seek validation from features of social media?`, fill = `3. Relationship Status`)) +
+      geom_bar(position = "dodge") +
+      labs(x = "Frequency of Seeking Validation", y = "Count", title = "Social Media Validation and Usage Time Based on Relationship Status") +
+      theme_minimal()
+  })
     
     
     
