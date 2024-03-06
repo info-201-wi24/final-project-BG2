@@ -27,29 +27,25 @@ overview_tab <- tabPanel("Introduction",
 # Visualization 1 Sidebar with Inputs
 
 
-viz_1_sidebar <- sidebarPanel(
-  h2("Options for Visualization 1"),
-  
-  sliderInput("distractionLevel",
-              "Distraction Level:",
-              min = 1, max = 5, value = c(1,5)),
-  
-  selectInput("sleepIssue",
-              "Sleep Issue Level:",
-              choices = c("All" = 0, "Never" = 1, "Rarely" = 2, 
-                          "Sometimes" = 3, "Often" = 4, "Always" = 5),
-              selected = 0))
-
-viz_1_main_panel <- mainPanel(
-  h2("Visualization 1: Impact of Social Media Usage"),
-  plotOutput(outputId = "impactPlot1"))
-
-viz_1_tab <- tabPanel("Instagram Usage & Mental Health Impact",
-                      sidebarLayout( viz_1_sidebar,viz_1_main_panel))
-
-ui <- navbarPage("Social Media's Impact On Mental Health",
-                 viz_1_tab,
-)
+ui <- navbarPage("Social Medias Affect On Mental Health",
+ overview_tab,
+ # Viz 1 Tab - I assume this is where you want your usageEmotionPlot to go
+ viz_1_tab <- tabPanel("Usage & Emotion",
+ sidebarLayout(
+   sidebarPanel(
+     h2("Filters"),
+     selectInput("purposeless_usage", "Usage Without Specific Purpose",
+                 choices = c("Very Rarely" = 1, "Rarely" = 2, "Occasionally" = 3, 
+                             "Frequently" = 4, "Very Frequently" = 5)),
+     sliderInput("depression_level", "Feelings of Depression",
+                 min = 1, max = 5, value = c(1, 5))
+   ),
+   mainPanel(
+     h2("Visualization"),
+     plotOutput("usageEmotionPlot"))
+  )
+   ),
+ )
 
 
 
