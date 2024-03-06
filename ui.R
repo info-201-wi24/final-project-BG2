@@ -104,7 +104,7 @@ viz_2_tab <- tabPanel("Effect of Screen Time on Mental Health",
 
 ## VIZ 3 TAB INFO
 viz_3_sidebar <- sidebarPanel(
-  h2("Social Media Validation and Usage Time Based on Relationship Status"),
+  h2("Social Media Validation Seeking and Daily Usage Time Based on Relationship Status"),
   checkboxGroupInput("relationship_status", "Relationship Status",
                      choices = c("In a relationship", "Single", "Married", "Divorced"),
                      selected = c("In a relationship", "Single", "Married", "Divorced")),
@@ -119,7 +119,7 @@ viz_3_main_panel <- mainPanel(
   plotOutput("relationshipPlot")
 )
 
-viz_3_tab <- tabPanel("Social Media Validation and Usage Time Based on Relationship Status",
+viz_3_tab <- tabPanel("Social Media Engagement by Relationship Status",
                       sidebarLayout(
                         viz_3_sidebar,
                         viz_3_main_panel
