@@ -141,21 +141,21 @@ viz_3_tab <- tabPanel("Social Media Engagement by Relationship Status",
 ## CONCLUSIONS TAB INFO
 
 conclusion_tab <- tabPanel("Our Findings",
-                           h1("SOur FIndings"),
-                           p("From what we observed, the data in both datasets show a 
-   clear sighn of social media being a net negative on mentak health. In more interesting ways 
-   than just one. For example in the 'Usage & Emotion' visualizaiton, the data points 
-   to us that as we increase how frequent the social media users engange, the average 
+                           h1("Sour Findings"),
+                           p("From what we observed, the data in both datasets show
+   clear signs of social media being a net negative on mental health. In more interesting ways 
+   than just one. For example in the 'Usage & Emotion' visualization, the data points 
+   to us that as we increase how frequent the social media users engage, the average 
    feelings of depression increased with them. When we delved a bit deeper and studied
    exactly what age and gender was being affected the most, we observed something very 
-   interesting. Overall it seems like older individuals do much better in this social media 
+   interesting. Overall, it seems like older individuals do much better in this social media 
    age because their mental health scores were through the roofs. Contrasting with younger individuals, 
    the score gets lower. Gender only really gave instances of outliers but younger aged females did alot better 
    than younger aged males did. Finally the most comprehensive finding was what all that means in the context of 
    active attention seeking through the lens of relationship status. The trends told us that the more hours people 
-   spend on social media, the more attention seeking behaviors they often times show. Now the most interesting thing about
-   the data was how married individuals showed sighns of seeking validation when only low hours were spent on social media vs single
-   individuals showing sighns of validation seeking the higher the engaement got. ")
+   spend on social media, the more attention seeking behaviors they show. Now, the most interesting thing about
+   the data was how married individuals showed signs of seeking validation when only low hours were spent on social media vs single
+   individuals showing signs of validation seeking the higher the engaement got. ")
 )
 
 # page 4 - end
