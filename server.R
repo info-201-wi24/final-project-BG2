@@ -95,21 +95,27 @@ server <- function(input, output) {
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
   # Page 3 - begin  
   
-
-output$relationshipPlot <- renderPlot({
- smmh_dataset <- read.csv("smmh.csv")
-  # Filter data based on input
-  filtered_data <- data[data$`3. Relationship Status` %in% input$relationship_status &
-                          data$`8. What is the average time you spend on social media every day?` == input$time_spent, ]
-      
-      # Create ggplot
-  ggplot(filtered_data, aes(x = `17. How often do you look to seek validation from features of social media?`, fill = `Relationship Status`)) +
-    geom_bar(position = "dodge") +
-    labs(x = "Frequency of Seeking Validation", y = "Count", title = "Social Media Validation and Usage Time Based on Relationship Status") +
-    theme_minimal()
-})
   
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
 # Page 3 - end
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
