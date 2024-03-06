@@ -42,17 +42,14 @@ viz_1_sidebar <- sidebarPanel(
 
 viz_1_main_panel <- mainPanel(
   h2("Visualization 1: Impact of Social Media Usage"),
-  plotlyOutput(outputId = "impactPlot1"))
+  plotOutput(outputId = "impactPlot1"))
 
 viz_1_tab <- tabPanel("Instagram Usage & Mental Health Impact",
                       sidebarLayout( viz_1_sidebar,viz_1_main_panel))
 
 ui <- navbarPage("Social Media's Impact On Mental Health",
-                viz_1_tab,
+                 viz_1_tab,
 )
-
-
-
 
 
 
@@ -151,15 +148,6 @@ conclusion_tab <- tabPanel("Conclusion Tab Title",
 
 # page 4 - end
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-ui <- navbarPage("Social Medias Affect On Mental Health",
-  overview_tab,
-  viz_1_tab,
-  viz_2_tab,
-  viz_3_tab,
-  conclusion_tab
-)
 
 
 ui <- navbarPage("Social Medias Affect On Mental Health",
