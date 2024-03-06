@@ -64,14 +64,14 @@ ui <- navbarPage("Social Medias Affect On Mental Health",
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
 # Page 2 - begin 
 
-
 ## VIZ 2 TAB INFO
 # Side bar info
 viz_2_sidebar <- sidebarPanel(
-  h2("What does this mean?", style = "margin: auto;"),
-  p("In exploring the impact of screen time on mental health, our analysis suggests that there is no clear direct correlation between the two factors based on the median results (to void outliers). After careful examination of the dataset, it becomes apparent that screentime usage does not consistently align with corresponding shifts in mental health scores. This relationship shows the complexity of variables contributing to mental health, emphasizing that screen time alone may not be a decisive indicator. While the data doesn't reveal a straightforward connection, it prompts further investigation into the multitude of variables that collectively shape individuals' mental health experiences."),
-  p("Median (Rarely, Occasionaly, Frequently, Very Often): 4, 4.25, 3.5, 3.35"),
-  style = "width: 240px; height: auto; display: flex; flex-direction: column; justify-content: center; align-items: center;"
+  h2("", style = "margin: auto;"),
+  style = "width: 240px; height: auto; display: flex; flex-direction: column; justify-content: center; align-items: center;",
+  checkboxGroupInput("frequencies", "Select Screentime Usage", 
+                     choices = unique(merged_dataset$`Frequency of Social Media Interaction`), 
+                     selected = unique(merged_dataset$`Frequency of Social Media Interaction`))
 )
 # Main panel info
 viz_2_main_panel <- mainPanel(

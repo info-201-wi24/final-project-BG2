@@ -60,18 +60,28 @@ server <- function(input, output) {
   # Page 2 - begin 
   
     
-    output$scatterPlot <- renderPlotly({
-      plot_ly(merged_dataset, 
-              x = ~`Frequency of Social Media Interaction`, 
-              y = ~`Impact on Mental Health (Score)`,
-              type = "box") %>%
-        layout(title = "",
-               xaxis = list(title = "Frequency of Social Media Interaction"),
-               yaxis = list(title = "Impact on Mental Health (Score 1-5)"))
-      
-    })
-
-
+  output$scatterPlot <- renderPlotly({
+    selected_frequencies <- input$frequencies
+    
+    if (is.null(selected_frequencies)) {
+      selected_frequencies <- unique(merged_dataset$`Frequency of Social Media Interaction`)
+    }
+    
+    filtered_data <- merged_dataset %>%
+      filter(`Frequency of Social Media Interaction` %in% selected_frequencies)
+    
+    ggplot_obj <- ggplot(filtered_data, 
+                         aes(x = `Frequency of Social Media Interaction`, 
+                             y = `Impact on Mental Health (Score)`)) +
+      geom_boxplot() +
+      labs(title = "",
+           x = "Frequency of Social Media Interaction",
+           y = "Impact on Mental Health (Score 1-5)") +
+      theme_minimal()
+    
+    ggplotly(ggplot_obj)
+  })
+  
   
   
 # Page 2 - end
