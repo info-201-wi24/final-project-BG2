@@ -19,14 +19,13 @@ server <- function(input, output) {
   
  #-------------------------------------------------------------------------------------------------------------------------------------------------
   # Page 1 - start
-    output$myImage <- renderImage({
+  output$myImage <- renderImage({
     list(src = "IMG_3156.WEBP",
          align = "center",
          width = "100%",
          height = 500)
-    
   }, deleteFile = F)
-    
+  
   filtered_data <-reactive({
     merged_dataset
   })
@@ -36,30 +35,17 @@ server <- function(input, output) {
            smmh$`8. What is the average time you spend on social media every day?` == input$time_spent, ]
   })
   
-  # Rendering the plotly plot
-     
-
-    output$impactPlot1 <- renderPlotly({
-      # data <- merged_dataset()
-       # Ensure merged_dataset is not empty or NULL
-      merged_data <- merged_dataset()
-
-      filtered_data <- merged_data %>%
-        filter(`On a scale from 1 to 5, how easily distracted are you?` >= input$distractionLevel[1],
-               `On a scale from 1 to 5, how easily distracted are you?` <= input$distractionLevel[2]) %>%
-        filter(if (input$sleepIssue == 0) TRUE else `On a scale from 1 to 5, how often do you face issues regarding sleep?` == input$sleepIssue)
-
-      # Generate the plot ask if the object error is something wrong with it
-      plot <- ggplot(filtered_data, aes(x = `Frequency of Social Media Interaction`, y = `Impact on Mental Health (Score)`)) +
-        geom_point(aes(color = `Self-reported Mental Health Status`)) +
-        geom_smooth(method = "lm", color = "blue", se = FALSE) +
-        theme_minimal() +
-        labs(title = "Impact of Social Media Interaction on Mental Health",
-             x = "Frequency of Social Media Interaction",
-             y = "Impact on Mental Health (Score)")
-
-      ggplotly(plot)
-    })
+  output$impactPlot1 <- renderPlot({
+    # Generate the plot ask if the object error is something wrong with it
+    ggplot(filtered_data(), aes(x = `Frequency of Social Media Interaction`, 
+                                y = `Impact on Mental Health (Score)`)) +
+      geom_point(aes(color = `Self-reported Mental Health Status`)) +
+      geom_smooth(method = "lm", color = "blue", se = FALSE) +
+      theme_minimal() +
+      labs(title = "Impact of Social Media Interaction on Mental Health",
+           x = "Frequency of Social Media Interaction",
+           y = "Impact on Mental Health (Score)")
+  })
 
 
 
