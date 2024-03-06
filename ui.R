@@ -6,7 +6,7 @@ library(plotly)
 
 ## OVERVIEW TAB INFO
 
-overview_tab <- tabPanel("Social media's Impact on Mental Health",
+overview_tab <- tabPanel("Introduction",
   h1("Introduction"),
   p("Social medias have continued affecting people’s mental health in the modern society. We aim to unravel the complex relationship between social media usage and its effects on users' psychological well-being. In an era where social media platforms dominate our daily interactions and self-perception, with their emphasis on visually curated lives, social media like twitter or instagram stands out for their potential to influence mental health. This journey seeks to explore and visualize the nuanced ways in which continuous exposure to idealized images, the pursuit of likes, and the pressure to maintain a perfect online persona contribute to increased feelings of anxiety, depression, and loneliness among its users."),
   p("Our investigation centers on three pivotal questions: How does the amount of time spent on Instagram correlate with the user's mental health outcomes? How often does user feel down correlated with the time they spend on Instagram? Lastly, Relationship between frequency of look to seek validation on social media and length of time using social media?"),
@@ -78,7 +78,7 @@ viz_2_sidebar <- sidebarPanel(
   h2("What does this mean?", style = "margin: auto;"),
   p("In exploring the impact of screen time on mental health, our analysis suggests that there is no clear direct correlation between the two factors based on the median results (to void outliers). After careful examination of the dataset, it becomes apparent that screentime usage does not consistently align with corresponding shifts in mental health scores. This relationship shows the complexity of variables contributing to mental health, emphasizing that screen time alone may not be a decisive indicator. While the data doesn't reveal a straightforward connection, it prompts further investigation into the multitude of variables that collectively shape individuals' mental health experiences."),
   p("Median (Rarely, Occasionaly, Frequently, Very Often): 4, 4.25, 3.5, 3.35"),
-  style = "width: 600px; height: auto; display: flex; flex-direction: column; justify-content: center; align-items: center;"
+  style = "width: 240px; height: auto; display: flex; flex-direction: column; justify-content: center; align-items: center;"
 )
 # Main panel info
 viz_2_main_panel <- mainPanel(
@@ -114,8 +114,8 @@ viz_3_sidebar <- sidebarPanel(
   selectInput("time_spent", "Average Time Spent on Social Media",
               choices = c("Less than an Hour", "Between 1 and 2 hours", "Between 2 and 3 hours", 
                           "Between 3 and 4 hours", "Between 4 and 5 hours", "More than 5 hours")),
-  sliderInput("validation_freq", "Frequency of Seeking Validation",
-              min = 1, max = 5, value = c(1, 5), step = 1)
+  ###sliderInput("validation_freq", "Frequency of Seeking Validation",
+              ###min = 1, max = 5, value = c(1, 5), step = 1)
 )
 viz_3_main_panel <- mainPanel(
   h2("Vizualization 3: relation plot"),
@@ -151,6 +151,15 @@ conclusion_tab <- tabPanel("Conclusion Tab Title",
 
 # page 4 - end
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ui <- navbarPage("Social Medias Affect On Mental Health",
+  overview_tab,
+  viz_1_tab,
+  viz_2_tab,
+  viz_3_tab,
+  conclusion_tab
+)
 
 
 ui <- navbarPage("Social Medias Affect On Mental Health",
