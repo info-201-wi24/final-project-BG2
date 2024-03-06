@@ -88,17 +88,14 @@ server <- function(input, output) {
   
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
-  # Page 3 - begin  
+# Page 3 - begin  
   output$relationshipPlot <- renderPlot({
     ggplot(filtered_smmh(), aes(x = `17. How often do you look to seek validation from features of social media?`, fill = `3. Relationship Status`)) +
       geom_bar(position = "dodge") +
-      labs(x = "Frequency of Seeking Validation", y = "Count", title = "Social Media Validation and Usage Time Based on Relationship Status") +
+      labs(x = "Frequency of Seeking Validation", y = "Count", title = "Social Media Validation Seeking and Daily Usage Time Based on Relationship Status") +
       theme_minimal()
   })
   
-                                       
-  
-
   
 # Page 3 - end
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
