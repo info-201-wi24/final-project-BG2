@@ -73,29 +73,24 @@ viz_1_tab <- tabPanel("Instagram Usage & Mental Health Impact",
 
 
 ## VIZ 2 TAB INFO
-
+# Side bar info
 viz_2_sidebar <- sidebarPanel(
-  h2("Options for Visualization 2"),
-  selectInput("usageWithoutPurpose", "Usage Without Specific Purpose:",
-              choices = c("All", "Never", "Rarely", "Sometimes", "Often", "Always")),
-  selectInput("distractionLevel", "Distraction Level When Busy:",
-              choices = c("All", "Not at all", "Slightly", "Moderately", "Very", "Extremely")),
-  selectInput("validationSeeking", "Seeking Validation from Social Media:",
-              choices = c("All", "Never", "Rarely", "Occasionally", "Frequently", "Very often"))
+  h2("What does this mean?", style = "margin: auto;"),
+  p("In exploring the impact of screen time on mental health, our analysis suggests that there is no clear direct correlation between the two factors based on the median results (to void outliers). After careful examination of the dataset, it becomes apparent that screentime usage does not consistently align with corresponding shifts in mental health scores. This relationship shows the complexity of variables contributing to mental health, emphasizing that screen time alone may not be a decisive indicator. While the data doesn't reveal a straightforward connection, it prompts further investigation into the multitude of variables that collectively shape individuals' mental health experiences."),
+  p("Median (Rarely, Occasionaly, Frequently, Very Often): 4, 4.25, 3.5, 3.35"),
+  style = "width: 600px; height: auto; display: flex; flex-direction: column; justify-content: center; align-items: center;"
 )
-
-
-
+# Main panel info
 viz_2_main_panel <- mainPanel(
-  h2("Vizualization 2 Title"),
-  # plotlyOutput(outputId = "your_viz_1_output_id")
+  h2("Effect of Screen Time on Mental Health"),
+  plotlyOutput("scatterPlot")
 )
 
-viz_2_tab <- tabPanel("Viz 2 tab title",
-  sidebarLayout(
-    viz_2_sidebar,
-    viz_2_main_panel
-  )
+viz_2_tab <- tabPanel("Effect of Screen Time on Mental Health",
+                      sidebarLayout(
+                        viz_2_sidebar,
+                        viz_2_main_panel
+                      )
 )
 
 

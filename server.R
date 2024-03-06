@@ -29,14 +29,13 @@ server <- function(input, output) {
   
   
   # Rendering the plotly plot
-    # merged_dataset <- reactive({
-    #   read.csv("merged_data.csv")
-    # })
+     merged_dataset <- reactive({
+       read.csv("merged_data_copy.csv")
+     })
 
     output$impactPlot1 <- renderPlotly({
       # data <- merged_dataset()
        # Ensure merged_dataset is not empty or NULL
-
 
       filtered_data <- merged_dataset %>%
         filter(`On a scale from 1 to 5, how easily distracted are you?` >= input$distractionLevel[1],
@@ -73,14 +72,26 @@ server <- function(input, output) {
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
   # Page 2 - begin 
   
-
-
-
-  
-  
-  
-  
-  
+    
+    output$scatterPlot <- renderPlotly({
+      merged_data <- merged_dataset()
+      
+      # Order dataset column
+      merged_data$Frequency.of.Social.Media.Interaction <- factor(
+        merged_data$Frequency.of.Social.Media.Interaction,
+        levels = c("Rarely", "Occasionally", "Frequently", "Very Often"),
+        ordered = TRUE
+      )
+      # Make the plot
+      plot_ly(merged_data, 
+              x = ~`Frequency.of.Social.Media.Interaction`, 
+              y = ~`Impact.on.Mental.Health..Score.`,
+              type = "box", mode = "markers", 
+              marker = list(size = 5, opacity = 0.5)) %>%
+        layout(title = "",
+               xaxis = list(title = "Frequency of Social Media Interaction"),
+               yaxis = list(title = "Impact on Mental Health (Score 1-5)"))
+    })
   
   
   
@@ -137,5 +148,3 @@ server <- function(input, output) {
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
   
 }
-
-#hinyApp(ui = ui, server = server)
