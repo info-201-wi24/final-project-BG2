@@ -47,9 +47,9 @@ viz_1_main_panel <- mainPanel(
 viz_1_tab <- tabPanel("Instagram Usage & Mental Health Impact",
                       sidebarLayout( viz_1_sidebar,viz_1_main_panel))
 
-#ui <- navbarPage("Social Media's Impact On Mental Health",
-#                viz_1_tab,
-#)
+ui <- navbarPage("Social Media's Impact On Mental Health",
+                viz_1_tab,
+)
 
 
 

@@ -8,36 +8,26 @@ library(plotly)
 
 
 server <- function(input, output) {
+  merged_dataset <- reactive({
+    read.csv("merged_data_copy.csv")
+  })
   #session
   
-  # merged_dataset <- reactive({
-  #   read_csv("merged_data_copy.csv")
-  # 
-  # })
   
-  # merged_dataset <- 
-  #   read_csv("merged_data_copy.csv")
-  
-  # merged_dataset <- reactive({
-  #   # Load the dataset from the environment
-  #   data <- merged_dataset  # Replace "your_dataset_name" with the actual name of your dataset in the environment
-  #   return(data)
-  # })
-  #--------------------------------------------------------------------------------------------------------------------------------------------------------
+ #-------------------------------------------------------------------------------------------------------------------------------------------------
   # Page 1 - start
   
   
   
   # Rendering the plotly plot
-     merged_dataset <- reactive({
-       read.csv("merged_data_copy.csv")
-     })
+     
 
     output$impactPlot1 <- renderPlotly({
       # data <- merged_dataset()
        # Ensure merged_dataset is not empty or NULL
+      merged_data <- merged_dataset()
 
-      filtered_data <- merged_dataset %>%
+      filtered_data <- merged_data %>%
         filter(`On a scale from 1 to 5, how easily distracted are you?` >= input$distractionLevel[1],
                `On a scale from 1 to 5, how easily distracted are you?` <= input$distractionLevel[2]) %>%
         filter(if (input$sleepIssue == 0) TRUE else `On a scale from 1 to 5, how often do you face issues regarding sleep?` == input$sleepIssue)
@@ -92,18 +82,8 @@ server <- function(input, output) {
                xaxis = list(title = "Frequency of Social Media Interaction"),
                yaxis = list(title = "Impact on Mental Health (Score 1-5)"))
     })
+
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    
   
 # Page 2 - end
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
