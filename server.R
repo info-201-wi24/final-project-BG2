@@ -8,15 +8,24 @@ library(plotly)
 
 
 server <- function(input, output) {
-  merged_dataset <- reactive({
-    read.csv("merged_data_copy.csv")
-  })
+merged_dataset <- read_csv("merged_data_copy.csv")
+merged_dataset$`Frequency of Social Media Interaction` <- factor(merged_dataset$`Frequency of Social Media Interaction`,
+                                                                 levels = c("Rarely", "Occasionally", "Frequently", "Very Often"),
+                                                                 ordered = TRUE)
+
+smmh <- read_csv("smmh.csv")
   #session
   
   
  #-------------------------------------------------------------------------------------------------------------------------------------------------
   # Page 1 - start
-  
+    output$myImage <- renderImage({
+    list(src = "IMG_3156.WEBP",
+         align = "center",
+         width = "100%",
+         height = 500)
+    
+  }, deleteFile = F)
   
   
   # Rendering the plotly plot
@@ -94,6 +103,15 @@ server <- function(input, output) {
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
   # Page 3 - begin  
+    output$relationshipPlot <- renderPlot({
+      ggplot(filtered_smmh(), aes(x = `17. How often do you look to seek validation from features of social media?`, fill = `3. Relationship Status`)) +
+        geom_bar(position = "dodge") +
+        labs(x = "Frequency of Seeking Validation", y = "Count", title = "Social Media Validation and Usage Time Based on Relationship Status") +
+        theme_minimal()
+    })
+
+}
+                                       
   
   
   
