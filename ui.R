@@ -29,26 +29,25 @@ overview_tab <- tabPanel("Introduction",
 
 
 ui <- navbarPage("Social Medias Affect On Mental Health",
- overview_tab,
- # Viz 1 Tab - I assume this is where you want your usageEmotionPlot to go
- viz_1_tab <- tabPanel("Usage & Emotion",
- sidebarLayout(
-   sidebarPanel(
-     h2("Filters"),
-     selectInput("purposeless_usage", "Usage Without Specific Purpose",
-                 choices = c("Very Rarely" = 1, "Rarely" = 2, "Occasionally" = 3, 
-                             "Frequently" = 4, "Very Frequently" = 5)),
-     sliderInput("depression_level", "Feelings of Depression",
-                 min = 1, max = 5, value = c(1, 5))
-   ),
-   mainPanel(
-     h2("Visualization"),
-     plotOutput("usageEmotionPlot", height = "400px"))
-   )
-   ),
- )
-
-
+                 overview_tab,
+                 viz_1_tab <- tabPanel("Usage & Emotion",
+                                       sidebarLayout(
+                                         sidebarPanel(
+                                           h2("Filters"),
+                                           sliderInput("ageRange", "Age Range",
+                                                       min = min(smmh$`1. What is your age?`, na.rm = TRUE), 
+                                                       max = max(smmh$`1. What is your age?`, na.rm = TRUE), 
+                                                       value = c(min(smmh$`1. What is your age?`, na.rm = TRUE), max(smmh$`1. What is your age?`, na.rm = TRUE)),
+                                                       step = 1),
+                                           selectInput("socialMediaUsage", "Do you use social media?",
+                                                       choices = c("Yes", "No"))
+                                         ),
+                                         mainPanel(
+                                           h2("Visualization"),
+                                           plotOutput("variableDistributionPlot", height = "400px"))
+                                       )
+                 ),
+)
 
 #  
 # Page 1 - end 
@@ -73,27 +72,25 @@ ui <- navbarPage("Social Medias Affect On Mental Health",
 # Page 2 - end
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
 
-ui <- navbarPage("Impact Analysis Dashboard",
-                 theme = shinytheme("flatly"),  # Apply a theme for better appearance
-              viz_2_tab  <- tabPanel("Age-based Impact",
-                          fluidPage(
-                            titlePanel("ScatterPlot: Distribution of Mental Health Impact Scores based on social media users"),
-                            sidebarLayout(
-                              sidebarPanel(
-                                h3("Filter by Gender"),
-                                selectInput("gender", "Gender",
-                                            choices = c("All", "Male", "Female"),
-                                            selected = "All")
-                              ),
-                              mainPanel(
-                                plotOutput("plot")
-                              )
-                            )
-                          )
-                 ),
-             
+viz_2_tab <- tabPanel("Age-based Impact",
+                      viz_2_tab <- tabPanel("Age-based Impact",
+                                            fluidPage(
+                                              titlePanel("ScatterPlot: Distribution of Mental Health Impact Scores based on social media users"),
+                                              sidebarLayout(
+                                                sidebarPanel(
+                                                  h3("Filter by Gender"),
+                                                  selectInput("gender", "Gender", choices = c("All", "Male", "Female"), selected = "All"),
+                                                  h3("Select Score Types"),
+                                                  checkboxInput("selfReportedCheck", "Self-reported Mental Health Status", value = TRUE),
+                                                  checkboxInput("actualScoreCheck", "Actual Score", value = TRUE)
+                                                ),
+                                                mainPanel(
+                                                  plotOutput("plot")
+                                                )
+                                              )
+                                            )
+                      )
 )
-
 #Notes: 
 
 

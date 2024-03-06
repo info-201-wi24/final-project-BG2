@@ -12,7 +12,7 @@ library(pheatmap)
 
 
 smmh <- read_csv("smmh.csv", show_col_types = FALSE)
-data <- readxl::read_excel("Digital Behavior and Mental Health Survey 2022.xlsx")
+data <- read_csv("merged_data_final.csv", show_col_types = FALSE)
 
 
 server <- function(input, output) {
@@ -22,33 +22,22 @@ server <- function(input, output) {
   # Page 1 - start
   
   # Rendering the plotly plot
-  output$usageEmotionPlot <- renderPlot({
+  output$variableDistributionPlot <- renderPlot({
+    # Filter the data based on the selected age range and social media usage
     filtered_data <- smmh %>%
-      filter(`9. How often do you find yourself using Social media without a specific purpose?` >= input$purposeless_usage,
-             `18. How often do you feel depressed or down?` >= input$depression_level[1],
-             `18. How often do you feel depressed or down?` <= input$depression_level[2])
+      filter(`1. What is your age?` >= input$ageRange[1],
+             `1. What is your age?` <= input$ageRange[2],
+             `6. Do you use social media?` == input$socialMediaUsage)
     
-    usage_labels <- c('1' = 'Very Rarely', '2' = 'Rarely', '3' = 'Occasionally', 
-                      '4' = 'Frequently', '5' = 'Very Frequently')
-    
-    filtered_data <- filtered_data %>%
-      mutate(`Usage Category` = factor(`9. How often do you find yourself using Social media without a specific purpose?`, 
-                                       levels = c('1', '2', '3', '4', '5'), 
-                                       labels = usage_labels))
-    
-    aggregated_data <- filtered_data %>%
-      group_by(`Usage Category`) %>%
-      summarize(Avg_Depression = mean(`18. How often do you feel depressed or down?`), .groups = 'drop')
-    
-    ggplot(aggregated_data, aes(x = `Usage Category`, y = Avg_Depression, fill = `Usage Category`)) +
-      geom_bar(stat = "identity") +
-      scale_fill_viridis_d(option = "D", direction = -1) +  # Reverse the default color palette
-      labs(x = "Usage Without Specific Purpose", y = "Average Feelings of Depression", 
-           title = "Social Media Usage vs. Emotional Impact") +
+    # Create a histogram or bar plot of age distribution for the selected range
+    ggplot(filtered_data, aes(x = `1. What is your age?`)) +
+      geom_histogram(binwidth = 1, fill = "dodgerblue", color = "black") +
+      labs(x = "Age", y = "Count") +
+      xlim(input$ageRange[1], input$ageRange[2]) +  # Set x limits to match the slider input
       theme_minimal() +
-      theme(legend.position = "bottom", plot.title = element_text(hjust = 0.5)) 
+      theme(axis.text.x = element_text(angle = 45, hjust = 1))  # Rotate the x labels for better readability
   })
-  
+
   
 
   
@@ -65,19 +54,36 @@ server <- function(input, output) {
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
   # Page 2 - begin 
-  output$plot <- renderPlot({
-    filtered_data <- if (input$gender == "All") {
-      data
-    } else {
-      data %>% 
-        filter(Gender == input$gender)
-    }
-    ggplot(filtered_data, aes(x = Age, y = `Impact on Mental Health (Score)`)) +
-      geom_point(color = "blue") +
-      labs(x = "Age", y = "Impact on Mental Health (Score)") +
-      theme_minimal()
-  })
+output$plot <- renderPlot({
+  # Filter based on gender selection
+  filtered_data <- if (input$gender == "All") {
+    data
+  } else {
+    data %>% 
+      dplyr::filter(Gender == input$gender)
+  }
+  
+  # Start the plot
+  p <- ggplot(filtered_data) + theme_minimal() + 
+    labs(x = "Age", y = "Score")
 
+  # Add self-reported scores if checkbox is checked
+  if (input$selfReportedCheck && "Self-reported Mental Health Status" %in% names(filtered_data)) {
+    p <- p + geom_point(data = filtered_data %>% filter(!is.na(`Self-reported Mental Health Status`)), 
+                        aes(x = Age, y = `Self-reported Mental Health Status`), 
+                        color = "blue")
+  }
+  
+  # Add actual scores if checkbox is checked
+  if (input$actualScoreCheck && "Impact on Mental Health (Score)" %in% names(filtered_data)) {
+    p <- p + geom_point(data = filtered_data %>% filter(!is.na(`Impact on Mental Health (Score)`)), 
+                        aes(x = Age, y = `Impact on Mental Health (Score)`), 
+                        color = "red")
+  }
+
+  # Return the plot
+  p
+})
   
 # Page 2 - end
 #--------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,782 @@
+Age,Occupation,Do you use Social Media?,What social media platform?,How often do you find yourself using social media without purpose?,How often do you get distracted by social media when you are busy?,"On a scale from 1 to 5, how easily distracted are you?","On a scale from 1 to 5, how much are you bothered by your worries?",How often do you seek validation from features of social media?,"On a scale from 1 to 5, how frequently does your interest in daily activities fluctuate?","On a scale from 1 to 5, how often do you face issues regarding sleep?",Respondent,Gender,Frequency of Social Media Interaction,Self-reported Mental Health Status,Impact on Mental Health (Score)
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",5,3,5,2,2,4,5,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",4,3,4,5,1,4,5,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Pinterest",3,2,2,5,1,2,5,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Instagram",4,2,3,5,2,3,2,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube",3,5,4,5,3,4,1,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Pinterest, TikTok",4,4,3,4,3,2,4,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, TikTok",4,3,2,4,4,5,3,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube",5,2,3,3,1,5,1,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube",5,2,3,1,1,5,1,NA,NA,Very often,NA,NA
+20,University Student,No,"Reddit, Pinterest",1,1,1,1,1,1,1,NA,NA,Rarely,NA,NA
+24,University Student,Yes,"Facebook, Instagram, YouTube, Discord",5,5,4,3,3,4,5,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",4,4,5,3,3,4,2,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",3,4,4,4,1,1,5,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Reddit, Pinterest",5,3,1,4,2,3,3,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, YouTube, Pinterest",5,5,5,5,5,5,5,NA,NA,Very often,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube, Reddit",3,4,3,4,2,4,2,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, YouTube, Discord",2,2,2,4,1,1,3,NA,NA,Rarely,NA,NA
+25,School Student,Yes,"Facebook, Instagram, YouTube, Reddit",5,5,4,3,2,2,2,NA,NA,Frequently,NA,NA
+28,University Student,Yes,"Facebook, YouTube, Discord, Reddit",3,4,4,5,1,3,1,NA,NA,Occasionally,NA,NA
+34,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube",2,4,3,4,3,2,2,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Discord, Reddit",4,2,3,3,1,3,2,NA,NA,Occasionally,NA,NA
+23,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, TikTok",3,2,2,4,1,3,1,NA,NA,Very often,NA,NA
+26,University Student,Yes,"Facebook, Instagram, YouTube, Pinterest",3,4,3,4,3,4,4,NA,NA,Frequently,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",3,2,4,4,3,4,1,NA,NA,Occasionally,NA,NA
+23,University Student,Yes,"Facebook, Twitter, YouTube, Discord",3,3,5,5,3,5,5,NA,NA,Frequently,NA,NA
+35,Salaried Worker,Yes,"Facebook, YouTube",4,4,3,3,4,2,2,NA,NA,Frequently,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube, Discord",4,4,3,3,3,3,4,NA,NA,Frequently,NA,NA
+35,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube",2,4,4,4,4,4,5,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",3,4,4,5,2,4,1,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",4,4,5,5,3,4,1,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Discord",4,4,3,5,3,4,3,NA,NA,Frequently,NA,NA
+35,Salaried Worker,Yes,"Facebook, YouTube, Pinterest",3,4,3,3,2,4,2,NA,NA,Occasionally,NA,NA
+24,Salaried Worker,Yes,"Facebook, Instagram, YouTube, TikTok",3,3,3,3,3,3,3,NA,NA,Occasionally,NA,NA
+18,School Student,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",4,3,3,4,4,3,2,NA,NA,Occasionally,NA,NA
+19,University Student,Yes,"Facebook, Instagram, YouTube, Discord",5,5,5,5,1,4,4,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Discord",3,4,4,4,1,2,1,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram",5,3,3,2,4,3,1,NA,NA,Frequently,NA,NA
+23,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",2,3,1,1,1,4,5,NA,NA,Rarely,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",4,5,4,4,3,2,5,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, YouTube, Discord",4,4,4,3,1,3,4,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",1,1,1,1,2,3,1,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",3,5,3,3,2,2,2,NA,NA,Frequently,NA,NA
+56,Retired,Yes,YouTube,1,1,1,3,1,3,1,NA,NA,Occasionally,NA,NA
+19,School Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",3,2,4,5,1,4,2,NA,NA,Very often,NA,NA
+24,Salaried Worker,Yes,"Twitter, Discord, Reddit",5,1,3,3,3,3,3,NA,NA,Very often,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube",4,5,4,5,3,2,3,NA,NA,Very often,NA,NA
+65,Retired,Yes,"Facebook, YouTube",5,3,2,2,3,3,2,NA,NA,Frequently,NA,NA
+17,School Student,Yes,"Instagram, YouTube, Reddit, Pinterest",4,3,3,5,1,5,1,NA,NA,Frequently,NA,NA
+40,Salaried Worker,Yes,"Twitter, YouTube, Reddit",3,3,3,2,1,2,1,NA,NA,Occasionally,NA,NA
+33,Salaried Worker,Yes,"Facebook, YouTube",3,3,3,2,1,1,1,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",4,4,4,3,3,4,4,NA,NA,Frequently,NA,NA
+24,Salaried Worker,Yes,"YouTube, Snapchat, Discord",5,5,5,4,1,5,1,NA,NA,Very often,NA,NA
+26,University Student,Yes,Facebook,3,5,5,5,5,5,5,NA,NA,Rarely,NA,NA
+55,Salaried Worker,Yes,"Discord, Reddit",3,2,3,2,1,2,1,NA,NA,Occasionally,NA,NA
+26,Salaried Worker,No,"YouTube, Discord, Reddit",4,1,2,2,1,3,2,NA,NA,Occasionally,NA,NA
+27,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Reddit, TikTok",2,5,4,4,4,2,3,NA,NA,Very often,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit",3,2,2,4,1,4,2,NA,NA,Very often,NA,NA
+19,School Student,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",3,2,2,4,2,4,5,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",4,5,4,4,4,4,2,NA,NA,Occasionally,NA,NA
+20,University Student,Yes,"Instagram, Reddit",1,1,2,2,1,3,5,NA,NA,Occasionally,NA,NA
+25,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Discord",4,3,4,4,2,3,4,NA,NA,Very often,NA,NA
+25,University Student,Yes,"YouTube, Reddit",2,2,3,5,4,5,4,NA,NA,Occasionally,NA,NA
+18,University Student,Yes,"Facebook, Instagram, YouTube, Pinterest",4,4,5,4,1,4,5,NA,NA,Very often,NA,NA
+25,Salaried Worker,Yes,Reddit,3,1,3,2,1,1,5,NA,NA,Occasionally,NA,NA
+19,University Student,Yes,"Discord, Reddit",2,3,5,3,1,5,4,NA,NA,Occasionally,NA,NA
+24,School Student,Yes,"YouTube, Discord, Reddit",3,2,3,2,2,4,4,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Instagram, Reddit, TikTok",5,5,5,5,4,4,1,NA,NA,Frequently,NA,NA
+18,School Student,Yes,"Twitter, Instagram, YouTube, Reddit, TikTok",2,1,3,5,2,2,4,NA,NA,Occasionally,NA,NA
+14,School Student,Yes,Reddit,4,2,3,5,2,4,4,NA,NA,Occasionally,NA,NA
+25,University Student,Yes,"YouTube, Snapchat, Discord, Reddit",4,4,3,3,2,4,4,NA,NA,Frequently,NA,NA
+33,Salaried Worker,Yes,"Instagram, YouTube",2,4,2,2,1,2,2,NA,NA,Frequently,NA,NA
+23,School Student,Yes,"Instagram, YouTube, Discord, Reddit",5,5,5,5,5,5,5,NA,NA,Occasionally,NA,NA
+14,School Student,Yes,"Twitter, Instagram, YouTube, Snapchat, Reddit, Pinterest, TikTok",4,4,2,4,4,4,5,NA,NA,Very often,NA,NA
+38,Salaried Worker,Yes,"Twitter, YouTube, Discord, Reddit",5,2,3,2,1,1,2,NA,NA,Occasionally,NA,NA
+23,Retired,Yes,"Facebook, YouTube, Discord, Reddit",4,4,3,4,4,5,4,NA,NA,Frequently,NA,NA
+26,Salaried Worker,Yes,Reddit,2,1,3,2,1,3,4,NA,NA,Rarely,NA,NA
+24,University Student,Yes,"Facebook, YouTube, Reddit",4,5,4,3,4,4,2,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",4,3,4,5,2,4,2,NA,NA,Frequently,NA,NA
+18,University Student,Yes,"Facebook, YouTube, Reddit",4,3,3,5,1,5,5,NA,NA,Frequently,NA,NA
+28,University Student,Yes,"Facebook, YouTube, Discord, Reddit",2,5,3,5,1,3,5,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",4,4,5,5,1,4,5,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",4,4,5,4,2,5,4,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Instagram, YouTube, Snapchat, Discord, Reddit",5,5,5,4,2,5,2,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Pinterest",3,5,5,3,3,5,5,NA,NA,Frequently,NA,NA
+17,School Student,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit",4,4,4,5,4,4,2,NA,NA,Occasionally,NA,NA
+24,Salaried Worker,Yes,"YouTube, Reddit",4,3,3,5,2,3,1,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, YouTube",3,4,4,1,2,4,4,NA,NA,Occasionally,NA,NA
+32,Salaried Worker,Yes,Reddit,4,3,5,2,1,2,1,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, YouTube",5,4,2,1,5,2,2,NA,NA,Occasionally,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",4,5,5,5,4,5,4,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",3,5,4,4,2,4,3,NA,NA,Occasionally,NA,NA
+28,University Student,Yes,"Facebook, YouTube",4,5,5,5,2,5,2,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat",4,3,4,5,2,2,1,NA,NA,Very often,NA,NA
+17,School Student,Yes,"Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",4,4,4,2,2,3,5,NA,NA,Frequently,NA,NA
+30,Salaried Worker,Yes,Instagram,4,5,2,4,3,4,4,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,5,3,2,1,1,5,NA,NA,Very often,NA,NA
+14,School Student,Yes,"Instagram, YouTube, Discord",5,5,4,2,1,3,5,NA,NA,Frequently,NA,NA
+20,School Student,Yes,"YouTube, Reddit",4,2,2,1,1,3,2,NA,NA,Very often,NA,NA
+22,School Student,Yes,"Facebook, Instagram, YouTube, Pinterest",4,4,4,4,4,5,3,NA,NA,Very often,NA,NA
+16,School Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",4,5,5,3,4,1,3,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube",3,4,4,4,3,2,3,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",5,4,4,4,1,3,5,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,Instagram,3,4,3,4,3,3,3,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",4,3,3,5,4,5,5,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",2,3,3,3,4,3,3,NA,NA,Frequently,NA,NA
+23,University Student,Yes,"Facebook, YouTube",2,3,3,3,3,4,5,NA,NA,Frequently,NA,NA
+23,University Student,Yes,"Facebook, Instagram, TikTok",3,2,4,2,3,4,5,NA,NA,Occasionally,NA,NA
+48,Salaried Worker,Yes,"Facebook, YouTube",1,1,1,3,2,1,1,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",3,2,3,2,3,2,5,NA,NA,Frequently,NA,NA
+47,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Pinterest",4,3,3,2,3,3,3,NA,NA,Occasionally,NA,NA
+48,Salaried Worker,Yes,"Facebook, Instagram, YouTube",3,3,4,4,3,3,3,NA,NA,Occasionally,NA,NA
+26,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Pinterest",4,5,4,5,3,2,3,NA,NA,Very often,NA,NA
+47,Salaried Worker,Yes,"Facebook, YouTube",4,3,4,3,1,2,4,NA,NA,Occasionally,NA,NA
+47,Salaried Worker,Yes,"Facebook, Instagram, Snapchat",2,4,3,3,2,3,4,NA,NA,Occasionally,NA,NA
+27,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Snapchat",2,5,4,3,4,4,1,NA,NA,Very often,NA,NA
+34,Salaried Worker,Yes,Facebook,5,5,5,3,3,5,4,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Facebook, Instagram",5,5,5,5,1,3,5,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,Facebook,5,4,4,5,4,3,4,NA,NA,Very often,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",5,5,5,5,4,4,5,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube",4,5,4,3,3,4,5,NA,NA,Frequently,NA,NA
+48,Salaried Worker,Yes,"Facebook, Instagram",2,4,3,2,2,1,1,NA,NA,Rarely,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube, TikTok",4,3,2,4,1,3,3,NA,NA,Frequently,NA,NA
+20,University Student,Yes,"Facebook, YouTube, Snapchat, Pinterest",4,5,5,2,1,4,3,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",4,5,5,5,1,2,2,NA,NA,Very often,NA,NA
+22,University Student,Yes,Instagram,5,5,3,2,4,4,1,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",4,4,5,4,2,5,3,NA,NA,Very often,NA,NA
+24,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord",1,1,3,4,2,4,4,NA,NA,Occasionally,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",3,2,3,5,4,2,5,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube",5,2,2,1,1,5,3,NA,NA,Frequently,NA,NA
+16,School Student,Yes,"Instagram, YouTube, Snapchat, Pinterest",3,1,3,3,1,3,2,NA,NA,Occasionally,NA,NA
+50,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",2,1,3,3,3,1,4,NA,NA,Occasionally,NA,NA
+47,Salaried Worker,Yes,"Facebook, YouTube",4,2,3,2,3,2,2,NA,NA,Occasionally,NA,NA
+24,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube",3,3,3,4,2,1,4,NA,NA,Occasionally,NA,NA
+38,Salaried Worker,Yes,Facebook,3,2,2,2,1,1,1,NA,NA,Rarely,NA,NA
+50,Salaried Worker,No,"Instagram, YouTube",2,1,2,2,1,2,1,NA,NA,Occasionally,NA,NA
+49,Retired,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",5,5,3,4,3,4,5,NA,NA,Frequently,NA,NA
+47,Salaried Worker,Yes,"Facebook, YouTube, Pinterest",3,3,3,3,1,1,4,NA,NA,Occasionally,NA,NA
+48,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",3,3,3,1,1,1,1,NA,NA,Occasionally,NA,NA
+51,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",4,3,3,3,3,3,3,NA,NA,Occasionally,NA,NA
+50,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube",4,3,5,5,3,4,2,NA,NA,Frequently,NA,NA
+47,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",3,2,2,2,1,2,1,NA,NA,Frequently,NA,NA
+27,Salaried Worker,Yes,"Facebook, Instagram, YouTube",4,5,5,5,3,5,4,NA,NA,Frequently,NA,NA
+40,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube",4,2,2,4,3,3,1,NA,NA,Occasionally,NA,NA
+46,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat",3,1,1,2,5,2,2,NA,NA,Rarely,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",4,3,3,3,3,5,5,NA,NA,Frequently,NA,NA
+47,Salaried Worker,Yes,Facebook,4,4,3,2,3,3,3,NA,NA,Occasionally,NA,NA
+20,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",4,4,4,4,4,3,4,NA,NA,Very often,NA,NA
+47,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube",3,4,4,5,1,3,2,NA,NA,Occasionally,NA,NA
+48,Salaried Worker,Yes,"Facebook, Instagram, YouTube",3,3,3,2,3,3,2,NA,NA,Frequently,NA,NA
+49,Salaried Worker,Yes,"Facebook, YouTube",4,3,2,2,2,2,4,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, YouTube, Discord",3,2,1,2,3,2,2,NA,NA,Frequently,NA,NA
+32,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",5,2,3,2,1,2,5,NA,NA,Frequently,NA,NA
+47,Salaried Worker,Yes,"Twitter, Instagram, YouTube",3,1,3,2,2,2,3,NA,NA,Occasionally,NA,NA
+50,Salaried Worker,Yes,"Facebook, Twitter, YouTube",1,1,3,2,3,2,2,NA,NA,Occasionally,NA,NA
+48,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube",5,1,2,4,3,2,5,NA,NA,Rarely,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Pinterest",2,2,5,4,2,5,4,NA,NA,Frequently,NA,NA
+47,Salaried Worker,Yes,Twitter,1,1,5,3,1,4,4,NA,NA,Rarely,NA,NA
+36,Salaried Worker,Yes,YouTube,3,2,2,4,1,1,4,NA,NA,Occasionally,NA,NA
+37,Retired,Yes,"Facebook, Instagram, YouTube",3,1,2,1,2,2,4,NA,NA,Occasionally,NA,NA
+19,School Student,Yes,Facebook,5,4,3,5,4,5,5,NA,NA,Frequently,NA,NA
+30,Salaried Worker,Yes,"Facebook, Instagram, YouTube",4,2,2,2,2,2,5,NA,NA,Occasionally,NA,NA
+48,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",3,1,1,1,2,5,2,NA,NA,Rarely,NA,NA
+48,Retired,Yes,"Facebook, Instagram, YouTube, Pinterest, TikTok",4,5,5,4,2,5,4,NA,NA,Very often,NA,NA
+48,Salaried Worker,Yes,"Twitter, YouTube",3,2,3,4,2,3,4,NA,NA,Frequently,NA,NA
+47,Salaried Worker,Yes,"Twitter, Instagram, YouTube, Reddit, TikTok",3,2,5,5,2,2,4,NA,NA,Occasionally,NA,NA
+47,Salaried Worker,Yes,"Facebook, Twitter",2,2,3,2,2,2,2,NA,NA,Rarely,NA,NA
+48,Salaried Worker,Yes,"Facebook, YouTube, Pinterest",5,1,2,2,1,1,4,NA,NA,Rarely,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",2,4,3,2,3,1,4,NA,NA,Occasionally,NA,NA
+48,Salaried Worker,Yes,"Twitter, YouTube",2,2,2,1,1,2,2,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord",2,3,4,3,1,2,1,NA,NA,Rarely,NA,NA
+20,University Student,Yes,"Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",5,5,4,2,1,3,4,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Facebook, YouTube",4,5,4,5,2,4,4,NA,NA,Frequently,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube",5,5,3,4,4,5,5,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",4,4,4,4,4,3,1,NA,NA,Occasionally,NA,NA
+20,University Student,Yes,"Instagram, YouTube, Pinterest",4,3,5,4,3,4,5,NA,NA,Frequently,NA,NA
+47,Salaried Worker,Yes,"Twitter, Instagram, YouTube, Reddit, TikTok",4,3,2,4,1,2,1,NA,NA,Occasionally,NA,NA
+35,Salaried Worker,Yes,"Facebook, YouTube",3,2,1,1,4,1,1,NA,NA,Rarely,NA,NA
+23,University Student,Yes,Pinterest,5,3,4,3,3,3,5,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",3,5,5,5,1,5,5,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Pinterest",3,2,2,4,4,2,1,NA,NA,Occasionally,NA,NA
+37,Salaried Worker,Yes,"Facebook, YouTube",5,4,3,5,2,4,5,NA,NA,Occasionally,NA,NA
+48,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube",4,2,3,2,3,3,4,NA,NA,Occasionally,NA,NA
+47,Salaried Worker,Yes,"Facebook, YouTube, TikTok",3,1,2,4,2,2,3,NA,NA,Rarely,NA,NA
+25,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit, Pinterest, TikTok",3,4,4,5,4,3,2,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",5,5,5,4,3,4,4,NA,NA,Very often,NA,NA
+45,Salaried Worker,Yes,"Facebook, YouTube",3,2,3,3,2,2,2,NA,NA,Occasionally,NA,NA
+47,Salaried Worker,Yes,"Instagram, YouTube",4,3,4,3,3,2,1,NA,NA,Occasionally,NA,NA
+47,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",4,5,3,3,1,3,1,NA,NA,Frequently,NA,NA
+24,University Student,Yes,"Facebook, Instagram, Pinterest",5,3,3,4,3,3,4,NA,NA,Very often,NA,NA
+21,University Student,Yes,Instagram,5,5,5,1,5,5,5,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, YouTube, Discord, Reddit, Pinterest",3,2,2,2,3,2,1,NA,NA,Occasionally,NA,NA
+19,School Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",3,4,3,3,3,3,1,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",3,3,4,2,1,4,4,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",5,3,3,5,4,3,4,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",4,5,4,5,4,5,5,NA,NA,Frequently,NA,NA
+42,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",3,1,1,1,1,3,1,NA,NA,Occasionally,NA,NA
+35,Salaried Worker,Yes,Facebook,5,3,2,1,1,2,2,NA,NA,Occasionally,NA,NA
+38,Salaried Worker,Yes,"Facebook, Twitter, YouTube, Discord, Reddit",3,3,2,3,3,2,2,NA,NA,Frequently,NA,NA
+17,School Student,Yes,"Facebook, Instagram, YouTube",2,2,2,2,1,1,2,NA,NA,Rarely,NA,NA
+32,Salaried Worker,Yes,"Facebook, YouTube, Discord, Reddit",3,1,2,2,1,2,1,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord",3,3,5,4,2,3,2,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit",4,2,2,4,2,2,5,NA,NA,Frequently,NA,NA
+27,University Student,Yes,"Facebook, Instagram, YouTube",5,5,3,3,1,3,4,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Discord, Reddit, TikTok",4,5,5,5,4,5,3,NA,NA,Frequently,NA,NA
+27,Salaried Worker,Yes,"Facebook, Discord, Reddit",5,5,5,5,1,5,5,NA,NA,Very often,NA,NA
+20,School Student,Yes,"Instagram, Discord, Reddit, Pinterest, TikTok",3,2,2,3,3,1,4,NA,NA,Occasionally,NA,NA
+27,Salaried Worker,Yes,"Facebook, Instagram, YouTube",4,4,5,4,1,3,2,NA,NA,Frequently,NA,NA
+24,University Student,Yes,"Facebook, Instagram, YouTube, Discord",5,5,5,1,1,5,4,NA,NA,Frequently,NA,NA
+26,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",3,2,1,1,1,1,1,NA,NA,Occasionally,NA,NA
+20,University Student,Yes,"Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",2,1,2,5,3,3,4,NA,NA,Frequently,NA,NA
+31,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Discord",3,3,3,4,4,3,2,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"YouTube, Discord, Reddit",5,1,1,1,1,1,1,NA,NA,Very often,NA,NA
+34,Salaried Worker,Yes,"Facebook, YouTube, TikTok",5,3,3,3,5,5,5,NA,NA,Very often,NA,NA
+22,University Student,Yes,"Facebook, YouTube, Snapchat",1,1,1,1,1,1,1,NA,NA,Rarely,NA,NA
+20,University Student,Yes,Instagram,3,3,3,5,5,5,1,NA,NA,Very often,NA,NA
+23,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",4,2,1,3,1,2,1,NA,NA,Frequently,NA,NA
+48,Salaried Worker,Yes,"Facebook, YouTube",1,1,1,1,3,1,1,NA,NA,Rarely,NA,NA
+37,Salaried Worker,Yes,"Facebook, YouTube",4,4,3,4,3,3,2,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",3,3,3,4,3,4,4,NA,NA,Occasionally,NA,NA
+50,Salaried Worker,Yes,Facebook,3,2,3,3,5,4,3,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat",4,4,5,5,3,4,4,NA,NA,Very often,NA,NA
+23,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",4,4,3,2,1,4,1,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, YouTube",4,3,3,4,3,4,3,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",3,3,3,3,3,3,3,NA,NA,Frequently,NA,NA
+22,University Student,Yes,Facebook,3,1,4,3,3,4,3,NA,NA,Very often,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, TikTok",2,5,3,3,3,4,3,NA,NA,Very often,NA,NA
+19,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest",5,4,3,5,5,4,3,NA,NA,Frequently,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube",5,5,5,3,2,2,5,NA,NA,Occasionally,NA,NA
+46,Salaried Worker,Yes,"Facebook, YouTube",2,1,1,1,1,3,4,NA,NA,Rarely,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube",4,5,4,4,4,4,5,NA,NA,Very often,NA,NA
+24,University Student,Yes,"Facebook, Instagram, YouTube, Discord",2,3,2,4,3,1,1,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube",3,1,1,2,2,3,1,NA,NA,Rarely,NA,NA
+25,University Student,Yes,YouTube,5,5,1,2,3,2,5,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, YouTube, Discord, Pinterest",2,1,2,2,1,1,1,NA,NA,Frequently,NA,NA
+23,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, TikTok",4,4,5,4,1,4,3,NA,NA,Very often,NA,NA
+22,Salaried Worker,Yes,"Instagram, YouTube, Discord, Reddit, TikTok",5,4,4,4,4,5,1,NA,NA,Very often,NA,NA
+36,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Pinterest",2,1,2,3,1,1,1,NA,NA,Rarely,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",5,5,5,5,2,3,5,NA,NA,Occasionally,NA,NA
+69,Salaried Worker,Yes,TikTok,5,5,5,5,5,5,5,NA,NA,Very often,NA,NA
+25,Salaried Worker,Yes,"Facebook, Instagram, YouTube",3,4,5,5,5,5,5,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, TikTok",4,2,5,4,4,4,2,NA,NA,Frequently,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",3,4,5,5,4,3,4,NA,NA,Frequently,NA,NA
+23,University Student,Yes,"Facebook, Instagram",3,2,3,4,2,2,5,NA,NA,Rarely,NA,NA
+19,School Student,Yes,"Facebook, Instagram, YouTube, Discord",5,3,3,5,3,5,5,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit",3,5,4,2,2,2,3,NA,NA,Occasionally,NA,NA
+27,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Snapchat",5,5,4,4,3,4,2,NA,NA,Frequently,NA,NA
+25,University Student,Yes,"Facebook, YouTube, Discord",4,3,2,4,2,2,1,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",4,2,3,4,1,2,3,NA,NA,Occasionally,NA,NA
+34,Salaried Worker,Yes,Facebook,2,5,1,1,5,2,1,NA,NA,Occasionally,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest",5,5,3,5,3,5,4,NA,NA,Very often,NA,NA
+34,Salaried Worker,Yes,Facebook,2,2,1,1,1,1,1,NA,NA,Occasionally,NA,NA
+26,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest, TikTok",5,5,5,5,3,4,4,NA,NA,Frequently,NA,NA
+25,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",4,5,5,1,4,1,5,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Pinterest",5,4,3,3,2,3,3,NA,NA,Occasionally,NA,NA
+20,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",4,2,3,5,2,4,2,NA,NA,Rarely,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",4,5,4,5,3,4,5,NA,NA,Very often,NA,NA
+91,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",2,5,4,5,5,5,5,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",4,1,1,1,1,2,3,NA,NA,Frequently,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube, TikTok",3,3,3,3,4,3,2,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram, Discord",2,3,2,3,2,1,4,NA,NA,Occasionally,NA,NA
+36,Salaried Worker,Yes,"Facebook, YouTube, Snapchat",4,1,2,2,2,3,3,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",3,3,3,5,3,5,4,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube",2,2,2,2,3,2,2,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, Pinterest, TikTok",4,4,4,2,4,4,3,NA,NA,Very often,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",5,2,4,4,2,3,2,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube, Discord",3,3,3,4,3,3,2,NA,NA,Frequently,NA,NA
+26,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube",4,4,3,3,1,2,4,NA,NA,Very often,NA,NA
+21,University Student,Yes,YouTube,3,3,5,5,2,2,4,NA,NA,Occasionally,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",4,5,5,5,1,4,5,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Twitter, YouTube, Discord, Pinterest",3,2,2,3,1,3,2,NA,NA,Very often,NA,NA
+19,School Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",3,2,5,2,1,1,5,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",4,5,5,5,4,5,5,NA,NA,Very often,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",5,4,4,4,4,3,4,NA,NA,Frequently,NA,NA
+23,University Student,Yes,"YouTube, Discord, Reddit",2,2,5,5,1,1,5,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",4,4,5,5,3,4,3,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",5,4,5,5,3,5,5,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,5,5,5,5,5,5,NA,NA,Frequently,NA,NA
+26,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Discord",5,5,5,5,1,5,5,NA,NA,Very often,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Discord",4,4,3,5,4,2,2,NA,NA,Occasionally,NA,NA
+17,School Student,Yes,Discord,3,4,3,3,4,3,4,NA,NA,Occasionally,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest, TikTok",4,3,4,5,4,4,5,NA,NA,Very often,NA,NA
+21,School Student,Yes,"Facebook, Instagram, YouTube, Discord, Reddit, Pinterest",2,4,4,5,4,3,3,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",1,1,1,1,1,1,2,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",4,5,2,5,1,4,5,NA,NA,Very often,NA,NA
+24,University Student,Yes,"Facebook, Twitter, Instagram, YouTube",4,4,4,4,3,4,4,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",4,4,5,4,2,4,4,NA,NA,Frequently,NA,NA
+24,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Discord",4,3,3,2,3,3,2,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",3,4,5,5,4,4,4,NA,NA,Very often,NA,NA
+26,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",3,3,2,4,4,2,2,NA,NA,Frequently,NA,NA
+24,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",2,1,2,4,3,2,4,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, YouTube",3,4,2,2,3,4,4,NA,NA,Occasionally,NA,NA
+25,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",3,2,2,4,2,2,3,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",4,5,4,4,3,5,4,NA,NA,Frequently,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, TikTok",4,4,4,4,4,5,5,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube",3,3,3,1,5,1,1,NA,NA,Occasionally,NA,NA
+25,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",2,1,2,4,1,1,1,NA,NA,Occasionally,NA,NA
+17,School Student,Yes,"Facebook, Discord",2,1,2,5,1,2,2,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube",4,2,3,5,3,3,5,NA,NA,Occasionally,NA,NA
+26,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit",3,4,4,4,1,3,2,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,Facebook,2,3,3,3,3,3,3,NA,NA,Occasionally,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",3,4,3,5,3,1,4,NA,NA,Occasionally,NA,NA
+25,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Snapchat",4,2,3,5,2,5,5,NA,NA,Occasionally,NA,NA
+21,School Student,Yes,"Instagram, YouTube, Snapchat, Discord, Reddit",4,5,5,2,4,5,2,NA,NA,Occasionally,NA,NA
+30,Salaried Worker,Yes,"Facebook, TikTok",4,5,3,3,1,4,5,NA,NA,Occasionally,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube",2,4,3,4,2,3,2,NA,NA,Frequently,NA,NA
+22,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",4,5,5,5,3,4,2,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube",5,5,4,4,2,4,3,NA,NA,Frequently,NA,NA
+20,University Student,Yes,"Facebook, YouTube",5,3,4,2,5,4,1,NA,NA,Frequently,NA,NA
+18,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest",3,2,2,4,3,3,4,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Twitter, Instagram, YouTube",3,3,2,4,2,3,1,NA,NA,Frequently,NA,NA
+15,School Student,Yes,"Instagram, YouTube, Discord, Pinterest",4,3,3,5,1,4,5,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",5,3,3,5,1,4,5,NA,NA,Very often,NA,NA
+17,School Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",2,5,5,3,3,4,2,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram",2,3,4,5,1,5,5,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, TikTok",5,1,1,4,2,5,4,NA,NA,Very often,NA,NA
+23,University Student,Yes,Facebook,4,3,4,4,3,3,4,NA,NA,Very often,NA,NA
+24,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",2,1,1,4,1,1,3,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",4,5,5,3,2,5,4,NA,NA,Very often,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",5,5,5,5,4,5,5,NA,NA,Very often,NA,NA
+22,University Student,Yes,"Facebook, YouTube, Snapchat, Discord",5,5,5,5,5,5,5,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, TikTok",3,4,4,5,3,4,5,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest",3,3,2,4,3,2,4,NA,NA,Very often,NA,NA
+18,School Student,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, Pinterest",5,4,2,4,3,3,5,NA,NA,Very often,NA,NA
+19,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord",3,2,2,4,4,2,5,NA,NA,Rarely,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",5,4,4,5,1,1,5,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Reddit, Pinterest, TikTok",4,2,5,5,5,5,1,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",5,5,5,5,3,3,5,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",4,5,4,5,5,5,4,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Instagram, Snapchat, Pinterest, TikTok",4,4,3,2,2,3,2,NA,NA,Occasionally,NA,NA
+23,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",5,4,5,4,2,4,4,NA,NA,Occasionally,NA,NA
+19,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",4,2,2,3,1,3,4,NA,NA,Frequently,NA,NA
+26,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",4,3,4,3,1,2,2,NA,NA,Occasionally,NA,NA
+27,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit, Pinterest",5,5,2,1,1,2,3,NA,NA,Occasionally,NA,NA
+25,University Student,Yes,"Facebook, Instagram, YouTube, Pinterest, TikTok",5,5,4,5,3,2,4,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube, Discord",3,3,3,3,3,3,3,NA,NA,Frequently,NA,NA
+20,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat",4,2,3,5,2,4,2,NA,NA,Very often,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",4,4,3,3,1,2,2,NA,NA,Frequently,NA,NA
+18,School Student,Yes,"Facebook, Instagram, YouTube",5,5,5,4,4,5,5,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit",4,3,3,4,1,1,3,NA,NA,Occasionally,NA,NA
+20,Salaried Worker,Yes,"Facebook, Twitter, Instagram, Snapchat, Reddit",3,3,3,5,4,3,2,NA,NA,Occasionally,NA,NA
+24,Salaried Worker,Yes,"YouTube, Discord",5,3,5,4,1,5,1,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube",3,4,3,5,4,4,3,NA,NA,Frequently,NA,NA
+29,Salaried Worker,Yes,"Facebook, Instagram",5,3,3,5,1,5,5,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",4,4,3,5,2,4,5,NA,NA,Occasionally,NA,NA
+19,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",3,5,3,5,1,5,5,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,4,4,4,1,4,2,NA,NA,Occasionally,NA,NA
+43,Salaried Worker,Yes,"Facebook, YouTube",2,1,1,1,3,1,1,NA,NA,Rarely,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",5,5,4,4,1,2,1,NA,NA,Frequently,NA,NA
+24,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",4,5,5,5,1,2,1,NA,NA,Frequently,NA,NA
+18,School Student,Yes,"Facebook, YouTube",5,5,3,5,1,4,4,NA,NA,Very often,NA,NA
+19,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",4,3,3,4,1,3,5,NA,NA,Frequently,NA,NA
+37,Salaried Worker,Yes,"Facebook, YouTube",2,2,3,3,1,3,4,NA,NA,Occasionally,NA,NA
+24,University Student,Yes,"Facebook, Instagram, YouTube, Discord, Reddit",4,4,4,4,3,4,5,NA,NA,Frequently,NA,NA
+29,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit, Pinterest",2,2,4,5,1,2,4,NA,NA,Occasionally,NA,NA
+19,School Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",3,3,2,3,3,2,2,NA,NA,Frequently,NA,NA
+35,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Discord",2,3,2,4,4,2,5,NA,NA,Rarely,NA,NA
+22,University Student,Yes,"Twitter, Discord, Reddit",4,5,5,5,1,4,2,NA,NA,Occasionally,NA,NA
+23,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",3,2,3,2,2,2,3,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Twitter, Instagram, TikTok",5,5,4,4,2,4,1,NA,NA,Very often,NA,NA
+25,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",4,4,5,5,2,3,5,NA,NA,Occasionally,NA,NA
+19,School Student,Yes,"Facebook, Instagram, YouTube, TikTok",3,3,3,3,3,3,2,NA,NA,Frequently,NA,NA
+29,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Pinterest",4,4,3,3,1,2,4,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",4,5,3,3,4,3,5,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",4,2,2,1,1,2,2,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",3,2,1,1,2,2,2,NA,NA,Occasionally,NA,NA
+23,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",5,4,4,5,4,2,5,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube",4,5,5,3,2,4,4,NA,NA,Occasionally,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",5,5,5,5,5,5,5,NA,NA,Very often,NA,NA
+22,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Snapchat",4,5,5,1,2,2,1,NA,NA,Very often,NA,NA
+27,Salaried Worker,Yes,"Facebook, Instagram, Snapchat, Discord, Pinterest, TikTok",3,3,3,4,3,3,4,NA,NA,Frequently,NA,NA
+24,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",5,2,2,4,3,1,5,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",5,5,4,5,5,5,5,NA,NA,Occasionally,NA,NA
+23,University Student,Yes,"YouTube, Pinterest",3,2,1,2,2,4,3,NA,NA,Rarely,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit, Pinterest",4,4,5,4,2,3,5,NA,NA,Frequently,NA,NA
+23,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat",4,4,3,4,3,2,1,NA,NA,Occasionally,NA,NA
+24,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",3,2,3,5,3,5,4,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",3,2,3,4,2,2,4,NA,NA,Frequently,NA,NA
+30,Salaried Worker,Yes,"Facebook, Instagram, YouTube",4,5,5,5,5,5,4,NA,NA,Occasionally,NA,NA
+23,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",3,4,2,5,5,2,2,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",4,3,3,2,1,3,2,NA,NA,Very often,NA,NA
+29,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",5,5,5,4,3,5,5,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Instagram, YouTube, Discord, Reddit, Pinterest",4,3,3,5,5,5,1,NA,NA,Frequently,NA,NA
+26.7,University Student,Yes,"Facebook, YouTube",4,2,3,5,3,5,5,NA,NA,Very often,NA,NA
+24,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",3,4,3,3,4,3,3,NA,NA,Occasionally,NA,NA
+26,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",4,5,4,4,2,4,3,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, YouTube, Discord",5,4,3,3,1,2,4,NA,NA,Occasionally,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",5,5,4,5,2,3,4,NA,NA,Frequently,NA,NA
+19,School Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",4,4,4,4,4,4,4,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Twitter, Instagram, YouTube, TikTok",3,4,4,4,2,4,2,NA,NA,Occasionally,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",5,5,5,5,2,4,5,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",4,4,4,2,4,3,4,NA,NA,Very often,NA,NA
+22,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Pinterest",3,3,4,5,1,3,3,NA,NA,Very often,NA,NA
+23,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",5,4,5,5,1,5,5,NA,NA,Very often,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",4,5,5,5,4,4,1,NA,NA,Very often,NA,NA
+20,School Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",5,4,3,3,3,2,2,NA,NA,Very often,NA,NA
+27,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Pinterest",4,2,2,3,4,2,1,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",5,4,4,4,3,4,3,NA,NA,Very often,NA,NA
+21,University Student,Yes,Facebook,4,4,5,4,4,5,5,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",2,1,2,2,2,4,4,NA,NA,Occasionally,NA,NA
+24,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",3,4,5,4,4,5,5,NA,NA,Frequently,NA,NA
+19,University Student,Yes,"Facebook, Twitter, Instagram, YouTube",4,2,3,4,2,4,3,NA,NA,Frequently,NA,NA
+52,Salaried Worker,Yes,"Facebook, YouTube",2,2,3,3,2,2,4,NA,NA,Occasionally,NA,NA
+26,University Student,Yes,"Facebook, Instagram, YouTube, Reddit, Pinterest, TikTok",5,4,4,4,2,4,5,NA,NA,Very often,NA,NA
+44,Salaried Worker,Yes,Facebook,1,1,2,1,1,1,1,NA,NA,Rarely,NA,NA
+44,Salaried Worker,Yes,Facebook,1,1,1,1,1,1,1,NA,NA,Rarely,NA,NA
+19,University Student,Yes,"Facebook, YouTube, Discord, Pinterest",4,5,4,5,1,4,5,NA,NA,Frequently,NA,NA
+35,Salaried Worker,Yes,"Facebook, Snapchat, Reddit",5,5,5,5,1,5,5,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Instagram, Snapchat",3,5,5,3,4,3,3,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Facebook, Instagram, TikTok",4,5,5,5,1,5,1,NA,NA,Frequently,NA,NA
+24,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit",5,2,2,5,4,2,5,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Reddit, Pinterest",4,4,5,5,1,3,1,NA,NA,Frequently,NA,NA
+24,University Student,Yes,"Facebook, Instagram, YouTube, Discord, Reddit",3,4,4,3,1,3,3,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",5,3,5,5,1,4,5,NA,NA,Frequently,NA,NA
+17,School Student,Yes,"Facebook, Instagram, YouTube, Discord",2,4,5,5,1,4,5,NA,NA,Very often,NA,NA
+26,University Student,Yes,Facebook,4,4,4,3,2,3,4,NA,NA,Frequently,NA,NA
+18,School Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",4,5,5,5,3,3,5,NA,NA,Frequently,NA,NA
+18,School Student,Yes,"Facebook, Instagram, YouTube, Discord",2,1,3,3,1,2,2,NA,NA,Frequently,NA,NA
+18,School Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Reddit, Pinterest, TikTok",5,3,3,4,1,5,5,NA,NA,Frequently,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",3,4,4,5,2,3,3,NA,NA,Frequently,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",4,5,5,2,3,2,1,NA,NA,Occasionally,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",4,4,4,5,2,3,5,NA,NA,Very often,NA,NA
+25,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, Pinterest",2,2,2,3,3,2,4,NA,NA,Rarely,NA,NA
+26,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Reddit",4,3,3,5,4,5,4,NA,NA,Occasionally,NA,NA
+20,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",4,5,4,5,4,4,5,NA,NA,Very often,NA,NA
+19,School Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",4,3,3,4,3,4,3,NA,NA,Occasionally,NA,NA
+17,School Student,Yes,"Facebook, Instagram, YouTube, Pinterest",4,1,2,5,1,4,1,NA,NA,Occasionally,NA,NA
+24,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",4,3,3,3,3,3,3,NA,NA,Frequently,NA,NA
+29,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Pinterest",5,5,4,5,4,4,3,NA,NA,Very often,NA,NA
+30,Retired,Yes,"Facebook, Instagram, YouTube",1,5,2,3,3,3,2,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",4,5,4,5,3,4,4,NA,NA,Frequently,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",4,3,4,4,3,5,5,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",5,5,3,4,4,3,5,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube, Discord",3,5,5,5,5,5,5,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",4,3,5,5,3,5,5,NA,NA,Frequently,NA,NA
+22,University Student,Yes,YouTube,3,1,3,4,1,3,5,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram",3,2,2,5,5,3,5,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Instagram, Snapchat",1,5,3,5,2,3,4,NA,NA,Very often,NA,NA
+27,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Reddit, TikTok",4,3,4,3,4,1,2,NA,NA,Frequently,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube",5,4,2,2,1,2,5,NA,NA,Very often,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",4,3,4,4,4,3,4,NA,NA,Frequently,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Discord",4,4,4,2,4,3,4,NA,NA,Frequently,NA,NA
+21,University Student,Yes,YouTube,3,4,3,3,3,3,2,NA,NA,Frequently,NA,NA
+23,University Student,Yes,"Facebook, YouTube, Discord, Reddit",4,2,2,3,1,2,2,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",4,5,4,4,4,4,3,NA,NA,Very often,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube",5,3,3,4,3,4,3,NA,NA,Frequently,NA,NA
+23,University Student,Yes,"Facebook, Instagram, YouTube, Discord, Reddit, Pinterest",2,1,2,5,1,2,4,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",3,5,5,5,3,4,5,NA,NA,Frequently,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat",5,3,3,5,4,5,3,NA,NA,Very often,NA,NA
+21,University Student,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",4,4,4,4,4,4,5,NA,NA,Frequently,NA,NA
+25,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",3,5,2,3,1,4,5,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Instagram, Discord",2,2,4,4,1,2,2,NA,NA,Frequently,NA,NA
+28,University Student,Yes,"Facebook, Instagram, YouTube, Discord, Reddit",4,3,4,5,1,1,5,NA,NA,Frequently,NA,NA
+22,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",1,1,5,3,1,4,3,NA,NA,Frequently,NA,NA
+60,Retired,Yes,"Facebook, YouTube",1,2,1,1,3,1,1,NA,NA,Occasionally,NA,NA
+49,Salaried Worker,Yes,"Facebook, YouTube, Pinterest",3,4,3,4,3,2,2,NA,NA,Rarely,NA,NA
+34,Salaried Worker,Yes,"Facebook, Instagram, YouTube",2,1,1,1,1,2,1,NA,NA,Rarely,NA,NA
+56,Salaried Worker,Yes,"Facebook, Twitter, YouTube, Pinterest",1,1,1,1,1,1,2,NA,NA,Occasionally,NA,NA
+51,Salaried Worker,Yes,"Facebook, Twitter, Instagram, YouTube",3,2,4,2,3,2,4,NA,NA,Occasionally,NA,NA
+23,School Student,Yes,Facebook,3,3,3,3,3,2,2,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, YouTube, Discord",3,5,3,3,1,2,3,NA,NA,Frequently,NA,NA
+50,University Student,Yes,"Facebook, Instagram",1,1,1,1,1,1,1,NA,NA,Occasionally,NA,NA
+22,University Student,Yes,"Twitter, Instagram, YouTube",2,2,4,5,1,5,2,NA,NA,Frequently,NA,NA
+28,Salaried Worker,Yes,"Facebook, Instagram, YouTube, Pinterest",5,4,5,4,2,5,2,NA,NA,Occasionally,NA,NA
+13,School Student,Yes,"Instagram, YouTube, Discord",3,4,3,3,1,3,4,NA,NA,Frequently,NA,NA
+14,School Student,Yes,"Instagram, Discord",3,4,4,3,1,3,1,NA,NA,Occasionally,NA,NA
+13,School Student,Yes,"Twitter, Instagram, YouTube, Discord, Pinterest",4,4,4,2,2,3,2,NA,NA,Very often,NA,NA
+23,School Student,Yes,"Facebook, Instagram, YouTube, Discord",2,4,3,4,1,2,3,NA,NA,Frequently,NA,NA
+18,University Student,Yes,"Discord, Reddit",3,3,3,2,1,2,4,NA,NA,Occasionally,NA,NA
+18,School Student,Yes,Pinterest,2,3,3,5,2,2,1,NA,NA,Very often,NA,NA
+15,School Student,Yes,"Instagram, YouTube, Discord, Reddit",1,1,3,3,3,1,1,NA,NA,Frequently,NA,NA
+20,University Student,Yes,"Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",2,2,3,5,2,4,5,NA,NA,Occasionally,NA,NA
+20,University Student,Yes,"Facebook, Instagram, YouTube",5,4,4,5,2,3,4,NA,NA,Very often,NA,NA
+35,Salaried Worker,Yes,"Facebook, Instagram, YouTube",3,2,3,3,2,4,4,NA,NA,Occasionally,NA,NA
+26,University Student,Yes,"Facebook, YouTube, TikTok",4,4,3,4,3,3,4,NA,NA,Occasionally,NA,NA
+30,Salaried Worker,Yes,"Facebook, Instagram, YouTube",2,4,3,4,2,2,1,NA,NA,Frequently,NA,NA
+32,Salaried Worker,Yes,"Facebook, Instagram",5,5,5,5,4,5,4,NA,NA,Frequently,NA,NA
+24,Salaried Worker,Yes,"Facebook, Instagram, YouTube",3,4,4,3,4,4,4,NA,NA,Occasionally,NA,NA
+26,Salaried Worker,Yes,"Facebook, YouTube",2,1,3,4,4,4,1,NA,NA,Occasionally,NA,NA
+29,Salaried Worker,Yes,"Facebook, YouTube",3,3,3,2,4,2,2,NA,NA,Occasionally,NA,NA
+21,University Student,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Pinterest",2,3,3,3,4,5,4,NA,NA,Occasionally,NA,NA
+53,Salaried Worker,Yes,"Facebook, YouTube",2,3,3,1,2,2,3,NA,NA,Rarely,NA,NA
+28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,Female,Frequently,Good,3.5
+35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,Male,Occasionally,Excellent,4.2
+22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,Female,Very Often,Poor,2.1
+45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4,Male,Rarely,Good,4
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5,Female,Frequently,Fair,3.1
+38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,Male,Occasionally,Excellent,4.3
+24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,Male,Very Often,Poor,2
+31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8,Female,Frequently,Good,3.6
+50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9,Male,Rarely,Fair,3.3
+27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,10,Female,Occasionally,Excellent,4.5
+34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11,Female,Frequently,Good,3.8
+42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,Male,Frequently,Excellent,4.4
+21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13,Female,Occasionally,Fair,3
+55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14,Female,Rarely,Good,4.1
+32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15,Male,Very Often,Excellent,4.6
+26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16,Male,Frequently,Poor,2.2
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,17,Female,Frequently,Good,3.7
+47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18,Male,Occasionally,Excellent,4.7
+30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19,Female,Frequently,Fair,3.2
+39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20,Male,Rarely,Good,3.9
+23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21,Female,Very Often,Excellent,4.8
+36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22,Female,Occasionally,Poor,2.3
+44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23,Male,Rarely,Good,4
+28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,Female,Frequently,Good,3.5
+35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25,Male,Occasionally,Excellent,4.2
+22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,Female,Very Often,Poor,2.1
+45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,Male,Rarely,Good,4
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28,Female,Frequently,Fair,3.1
+38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,Male,Occasionally,Excellent,4.3
+24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,30,Male,Very Often,Poor,2
+31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,31,Female,Frequently,Good,3.6
+50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,Male,Rarely,Fair,3.3
+27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,Female,Occasionally,Excellent,4.5
+34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34,Female,Frequently,Good,3.8
+42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,Male,Frequently,Excellent,4.4
+21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,Female,Occasionally,Fair,3
+55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,37,Female,Rarely,Good,4.1
+32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,Male,Very Often,Excellent,4.6
+26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,Male,Frequently,Poor,2.2
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,Female,Frequently,Good,3.7
+47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,Male,Occasionally,Excellent,4.7
+30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,42,Female,Frequently,Fair,3.2
+39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,Male,Rarely,Good,3.9
+23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,Female,Very Often,Excellent,4.8
+36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45,Female,Occasionally,Poor,2.3
+44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,Male,Rarely,Good,4
+28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,47,Female,Frequently,Good,3.5
+35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,Male,Occasionally,Excellent,4.2
+22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,Female,Very Often,Poor,2.1
+45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,Male,Rarely,Good,4
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,51,Female,Frequently,Fair,3.1
+38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,52,Male,Occasionally,Excellent,4.3
+24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,53,Male,Very Often,Poor,2
+31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,54,Female,Frequently,Good,3.6
+50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,55,Male,Rarely,Fair,3.3
+27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,56,Female,Occasionally,Excellent,4.5
+34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,57,Female,Frequently,Good,3.8
+42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,58,Male,Frequently,Excellent,4.4
+21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,59,Female,Occasionally,Fair,3
+55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,60,Female,Rarely,Good,4.1
+32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,61,Male,Very Often,Excellent,4.6
+26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,62,Male,Frequently,Poor,2.2
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,63,Female,Frequently,Good,3.7
+47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,64,Male,Occasionally,Excellent,4.7
+30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,65,Female,Frequently,Fair,3.2
+39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,66,Male,Rarely,Good,3.9
+23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,67,Female,Very Often,Excellent,4.8
+36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,68,Female,Occasionally,Poor,2.3
+44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,69,Male,Rarely,Good,4
+28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,70,Female,Frequently,Good,3.5
+35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,71,Male,Occasionally,Excellent,4.2
+22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,72,Female,Very Often,Poor,2.1
+45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,73,Male,Rarely,Good,4
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,74,Female,Frequently,Fair,3.1
+38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75,Male,Occasionally,Excellent,4.3
+24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,76,Male,Very Often,Poor,2
+31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,77,Female,Frequently,Good,3.6
+50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,78,Male,Rarely,Fair,3.3
+27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,79,Female,Occasionally,Excellent,4.5
+34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,80,Female,Frequently,Good,3.8
+42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,81,Male,Frequently,Excellent,4.4
+21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,82,Female,Occasionally,Fair,3
+55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,83,Female,Rarely,Good,4.1
+32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,84,Male,Very Often,Excellent,4.6
+26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,85,Male,Frequently,Poor,2.2
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,86,Female,Frequently,Good,3.7
+47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,87,Male,Occasionally,Excellent,4.7
+30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,88,Female,Frequently,Fair,3.2
+39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,89,Male,Rarely,Good,3.9
+23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,90,Female,Very Often,Excellent,4.8
+36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,91,Female,Occasionally,Poor,2.3
+44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,92,Male,Rarely,Good,4
+28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,93,Female,Frequently,Good,3.5
+35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,94,Male,Occasionally,Excellent,4.2
+22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,95,Female,Very Often,Poor,2.1
+45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,96,Male,Rarely,Good,4
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,97,Female,Frequently,Fair,3.1
+38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,98,Male,Occasionally,Excellent,4.3
+24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,99,Male,Very Often,Poor,2
+31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,100,Female,Frequently,Good,3.6
+50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,101,Male,Rarely,Fair,3.3
+27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,102,Female,Occasionally,Excellent,4.5
+34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,103,Female,Frequently,Good,3.8
+42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,104,Male,Frequently,Excellent,4.4
+21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,105,Female,Occasionally,Fair,3
+55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,106,Female,Rarely,Good,4.1
+32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,107,Male,Very Often,Excellent,4.6
+26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,108,Male,Frequently,Poor,2.2
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,109,Female,Frequently,Good,3.7
+47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,110,Male,Occasionally,Excellent,4.7
+30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,111,Female,Frequently,Fair,3.2
+39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,112,Male,Rarely,Good,3.9
+23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,113,Female,Very Often,Excellent,4.8
+36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,114,Female,Occasionally,Poor,2.3
+44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,115,Male,Rarely,Good,4
+28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,116,Female,Frequently,Good,3.5
+35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,117,Male,Occasionally,Excellent,4.2
+22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,118,Female,Very Often,Poor,2.1
+45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,119,Male,Rarely,Good,4
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,120,Female,Frequently,Fair,3.1
+38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,121,Male,Occasionally,Excellent,4.3
+24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,122,Male,Very Often,Poor,2
+31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,123,Female,Frequently,Good,3.6
+50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,124,Male,Rarely,Fair,3.3
+27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,125,Female,Occasionally,Excellent,4.5
+34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,126,Female,Frequently,Good,3.8
+42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,127,Male,Frequently,Excellent,4.4
+21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,128,Female,Occasionally,Fair,3
+55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,129,Female,Rarely,Good,4.1
+32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,130,Male,Very Often,Excellent,4.6
+26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,131,Male,Frequently,Poor,2.2
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,132,Female,Frequently,Good,3.7
+47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,133,Male,Occasionally,Excellent,4.7
+30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,134,Female,Frequently,Fair,3.2
+39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,135,Male,Rarely,Good,3.9
+23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,136,Female,Very Often,Excellent,4.8
+36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,137,Female,Occasionally,Poor,2.3
+44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,138,Male,Rarely,Good,4
+28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,139,Female,Frequently,Good,3.5
+35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,140,Male,Occasionally,Excellent,4.2
+22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,141,Female,Very Often,Poor,2.1
+45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,142,Male,Rarely,Good,4
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,143,Female,Frequently,Fair,3.1
+38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,144,Male,Occasionally,Excellent,4.3
+24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,145,Male,Very Often,Poor,2
+31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,146,Female,Frequently,Good,3.6
+50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,147,Male,Rarely,Fair,3.3
+27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,148,Female,Occasionally,Excellent,4.5
+34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,149,Female,Frequently,Good,3.8
+42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,Male,Frequently,Excellent,4.4
+21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,151,Female,Occasionally,Fair,3
+55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,152,Female,Rarely,Good,4.1
+32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,153,Male,Very Often,Excellent,4.6
+26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,154,Male,Frequently,Poor,2.2
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,155,Female,Frequently,Good,3.7
+47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,156,Male,Occasionally,Excellent,4.7
+30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,157,Female,Frequently,Fair,3.2
+39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,158,Male,Rarely,Good,3.9
+23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,159,Female,Very Often,Excellent,4.8
+36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,160,Female,Occasionally,Poor,2.3
+44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,161,Male,Rarely,Good,4
+28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,162,Female,Frequently,Good,3.5
+35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,163,Male,Occasionally,Excellent,4.2
+22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,164,Female,Very Often,Poor,2.1
+45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,165,Male,Rarely,Good,4
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,166,Female,Frequently,Fair,3.1
+38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,167,Male,Occasionally,Excellent,4.3
+24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,168,Male,Very Often,Poor,2
+31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,169,Female,Frequently,Good,3.6
+50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,170,Male,Rarely,Fair,3.3
+27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,171,Female,Occasionally,Excellent,4.5
+34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,172,Female,Frequently,Good,3.8
+42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,173,Male,Frequently,Excellent,4.4
+21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,174,Female,Occasionally,Fair,3
+55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,175,Female,Rarely,Good,4.1
+32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,176,Male,Very Often,Excellent,4.6
+26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,177,Male,Frequently,Poor,2.2
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,178,Female,Frequently,Good,3.7
+47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,179,Male,Occasionally,Excellent,4.7
+30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,180,Female,Frequently,Fair,3.2
+39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,181,Male,Rarely,Good,3.9
+23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,182,Female,Very Often,Excellent,4.8
+36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,183,Female,Occasionally,Poor,2.3
+44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,184,Male,Rarely,Good,4
+28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,185,Female,Frequently,Good,3.5
+35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,186,Male,Occasionally,Excellent,4.2
+22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,187,Female,Very Often,Poor,2.1
+45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,188,Male,Rarely,Good,4
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,189,Female,Frequently,Fair,3.1
+38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,190,Male,Occasionally,Excellent,4.3
+24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,191,Male,Very Often,Poor,2
+31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,192,Female,Frequently,Good,3.6
+50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,193,Male,Rarely,Fair,3.3
+27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,194,Female,Occasionally,Excellent,4.5
+34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,195,Female,Frequently,Good,3.8
+42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,196,Male,Frequently,Excellent,4.4
+21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,197,Female,Occasionally,Fair,3
+55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,198,Female,Rarely,Good,4.1
+32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,199,Male,Very Often,Excellent,4.6
+26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,200,Male,Frequently,Poor,2.2
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,201,Female,Frequently,Good,3.7
+47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,202,Male,Occasionally,Excellent,4.7
+30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,203,Female,Frequently,Fair,3.2
+39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,204,Male,Rarely,Good,3.9
+23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,205,Female,Very Often,Excellent,4.8
+36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,206,Female,Occasionally,Poor,2.3
+44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,207,Male,Rarely,Good,4
+28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,208,Female,Frequently,Good,3.5
+35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,209,Male,Occasionally,Excellent,4.2
+22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,210,Female,Very Often,Poor,2.1
+45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,211,Male,Rarely,Good,4
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,212,Female,Frequently,Fair,3.1
+38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,213,Male,Occasionally,Excellent,4.3
+24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,214,Male,Very Often,Poor,2
+31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,215,Female,Frequently,Good,3.6
+50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,216,Male,Rarely,Fair,3.3
+27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,217,Female,Occasionally,Excellent,4.5
+34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,218,Female,Frequently,Good,3.8
+42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,219,Male,Frequently,Excellent,4.4
+21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,220,Female,Occasionally,Fair,3
+55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,221,Female,Rarely,Good,4.1
+32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,222,Male,Very Often,Excellent,4.6
+26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,223,Male,Frequently,Poor,2.2
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,224,Female,Frequently,Good,3.7
+47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,225,Male,Occasionally,Excellent,4.7
+30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,226,Female,Frequently,Fair,3.2
+39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,227,Male,Rarely,Good,3.9
+23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,228,Female,Very Often,Excellent,4.8
+36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,229,Female,Occasionally,Poor,2.3
+44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,230,Male,Rarely,Good,4
+28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,231,Female,Frequently,Good,3.5
+35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,232,Male,Occasionally,Excellent,4.2
+22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,233,Female,Very Often,Poor,2.1
+45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,234,Male,Rarely,Good,4
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,235,Female,Frequently,Fair,3.1
+38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,236,Male,Occasionally,Excellent,4.3
+24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,237,Male,Very Often,Poor,2
+31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,238,Female,Frequently,Good,3.6
+50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,239,Male,Rarely,Fair,3.3
+27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,240,Female,Occasionally,Excellent,4.5
+34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,241,Female,Frequently,Good,3.8
+42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,242,Male,Frequently,Excellent,4.4
+21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,243,Female,Occasionally,Fair,3
+55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,244,Female,Rarely,Good,4.1
+32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,245,Male,Very Often,Excellent,4.6
+26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,246,Male,Frequently,Poor,2.2
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,247,Female,Frequently,Good,3.7
+47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,248,Male,Occasionally,Excellent,4.7
+30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,249,Female,Frequently,Fair,3.2
+39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,250,Male,Rarely,Good,3.9
+23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,251,Female,Very Often,Excellent,4.8
+36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,252,Female,Occasionally,Poor,2.3
+44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,253,Male,Rarely,Good,4
+28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,254,Female,Frequently,Good,3.5
+35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,255,Male,Occasionally,Excellent,4.2
+22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,256,Female,Very Often,Poor,2.1
+45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,257,Male,Rarely,Good,4
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,258,Female,Frequently,Fair,3.1
+38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,259,Male,Occasionally,Excellent,4.3
+24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,260,Male,Very Often,Poor,2
+31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,261,Female,Frequently,Good,3.6
+50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,262,Male,Rarely,Fair,3.3
+27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,263,Female,Occasionally,Excellent,4.5
+34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,264,Female,Frequently,Good,3.8
+42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,265,Male,Frequently,Excellent,4.4
+21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,266,Female,Occasionally,Fair,3
+55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,267,Female,Rarely,Good,4.1
+32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,268,Male,Very Often,Excellent,4.6
+26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,269,Male,Frequently,Poor,2.2
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,270,Female,Frequently,Good,3.7
+47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,271,Male,Occasionally,Excellent,4.7
+30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,272,Female,Frequently,Fair,3.2
+39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,273,Male,Rarely,Good,3.9
+23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,274,Female,Very Often,Excellent,4.8
+36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,275,Female,Occasionally,Poor,2.3
+44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,276,Male,Rarely,Good,4
+28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,277,Female,Frequently,Good,3.5
+35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,278,Male,Occasionally,Excellent,4.2
+22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,279,Female,Very Often,Poor,2.1
+45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,280,Male,Rarely,Good,4
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,281,Female,Frequently,Fair,3.1
+38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,282,Male,Occasionally,Excellent,4.3
+24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,283,Male,Very Often,Poor,2
+31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,284,Female,Frequently,Good,3.6
+50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,285,Male,Rarely,Fair,3.3
+27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,286,Female,Occasionally,Excellent,4.5
+34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,287,Female,Frequently,Good,3.8
+42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,288,Male,Frequently,Excellent,4.4
+21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,289,Female,Occasionally,Fair,3
+55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,290,Female,Rarely,Good,4.1
+32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,291,Male,Very Often,Excellent,4.6
+26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,292,Male,Frequently,Poor,2.2
+29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,293,Female,Frequently,Good,3.7
+47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,294,Male,Occasionally,Excellent,4.7
+30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,295,Female,Frequently,Fair,3.2
+39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,296,Male,Rarely,Good,3.9
+23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,297,Female,Very Often,Excellent,4.8
+36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,298,Female,Occasionally,Poor,2.3
+44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,299,Male,Rarely,Good,4
+28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,300,Female,Frequently,Good,3.5

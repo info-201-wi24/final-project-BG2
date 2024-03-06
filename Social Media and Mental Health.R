@@ -8,8 +8,9 @@ Digital_Behavior_and_Mental_Health_Survey_2022 <- read_excel("Digital Behavior a
 
 # Cleaning data to relevant subjects 
 Social_Media_Mental_Health <- Social_Media_Mental_Health[-c(1, 3, 4, 6, 12, 15, 16, 17, 19)]
-Digital_Behavior_and_Mental_Health_Survey_2022  <- Digital_Behavior_and_Mental_Health_Survey_2022 [-c(1)]
+Digital_Behavior_and_Mental_Health_Survey_2022  <- Digital_Behavior_and_Mental_Health_Survey_2022 
 
+print(Digital_Behavior_and_Mental_Health_Survey_2022 )
 # Merge the datasets
 
 # Convert column from one data set to another
@@ -54,5 +55,6 @@ merged_dataset <- merged_dataset %>%
 
   )
 
-write_csv(merged_dataset, "merged_data_copy.csv")
+
+write_csv(merged_dataset, "merged_data_final.csv")
 
