@@ -7,13 +7,13 @@ library(plotly)
 
 
 
-server <- function(input, output) {
 merged_dataset <- read_csv("merged_data_copy.csv")
 merged_dataset$`Frequency of Social Media Interaction` <- factor(merged_dataset$`Frequency of Social Media Interaction`,
                                                                  levels = c("Rarely", "Occasionally", "Frequently", "Very Often"),
                                                                  ordered = TRUE)
 
 smmh <- read_csv("smmh.csv")
+server <- function(input, output) {
   #session
   
   
@@ -26,7 +26,15 @@ smmh <- read_csv("smmh.csv")
          height = 500)
     
   }, deleteFile = F)
+    
+  filtered_data <-reactive({
+    merged_dataset
+  })
   
+  filtered_smmh <-reactive({
+    smmh[smmh$`3. Relationship Status` %in% input$relationship_status &
+           smmh$`8. What is the average time you spend on social media every day?` == input$time_spent, ]
+  })
   
   # Rendering the plotly plot
      
@@ -109,7 +117,7 @@ smmh <- read_csv("smmh.csv")
       labs(x = "Frequency of Seeking Validation", y = "Count", title = "Social Media Validation and Usage Time Based on Relationship Status") +
       theme_minimal()
   })
-
+  
 }
                                        
   
