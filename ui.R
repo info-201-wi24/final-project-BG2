@@ -4,6 +4,9 @@ library(dplyr)
 library(readr)
 library(plotly)
 library(shinythemes)
+library(rsconnect)
+
+#link to shiny app: https://finalproject23.shinyapps.io/final-project-thientran01/
 
 ## OVERVIEW TAB INFO
 overview_tab <- tabPanel("Introduction",
