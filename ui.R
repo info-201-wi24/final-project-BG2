@@ -16,13 +16,8 @@ overview_tab <- tabPanel("Introduction",
    imageOutput("myImage")                      
 )
 
-
-
-
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
 # Page 1 - start
-
-
 ## VIZ 1 TAB INFO
 # Define UI
 # Visualization 1 Sidebar with Inputs
@@ -87,7 +82,6 @@ viz_2_tab <- tabPanel("Age-based Impact",
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
 # Page 3 - begin  
-#Relationship between frequency of look to seek validation on social media and length of time using social media base on their relationship Status.	` 
 
 ## VIZ 3 TAB INFO
 viz_3_sidebar <- sidebarPanel(

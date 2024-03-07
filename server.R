@@ -21,21 +21,18 @@ server <- function(input, output) {
   #-------------------------------------------------------------------------------------------------------------------------------------------------
   # Page 1 - start
   
-  # Rendering the plotly plot
   output$variableDistributionPlot <- renderPlot({
-    # Filter the data based on the selected age range and average social media usage time
     filtered_data <- smmh %>%
       filter(`1. What is your age?` >= input$ageRange[1],
              `1. What is your age?` <= input$ageRange[2],
              `8. What is the average time you spend on social media every day?` == input$socialMediaTimeSpent)
     
-    # Create a histogram or bar plot of age distribution for the selected range
     ggplot(filtered_data, aes(x = `1. What is your age?`)) +
       geom_histogram(binwidth = 1, fill = "red", color = "black") +
       labs(x = "Age", y = "Social Media Users") +
-      xlim(input$ageRange[1], input$ageRange[2]) +  # Set x limits to match the slider input
+      xlim(input$ageRange[1], input$ageRange[2]) +  
       theme_minimal() +
-      theme(axis.text.x = element_text(angle = 45, hjust = 1))  # Rotate the x labels for better readability
+      theme(axis.text.x = element_text(angle = 45, hjust = 1))  
   })
 
   
@@ -50,7 +47,6 @@ server <- function(input, output) {
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
   # Page 2 - begin 
 output$plot <- renderPlot({
-  # Filter based on gender selection
   filtered_data <- if (input$gender == "All") {
     data
   } else {
@@ -58,25 +54,21 @@ output$plot <- renderPlot({
       dplyr::filter(Gender == input$gender)
   }
   
-  # Start the plot
   p <- ggplot(filtered_data) + theme_minimal() + 
     labs(x = "Age", y = "Score")
 
-  # Add self-reported scores if checkbox is checked
   if (input$selfReportedCheck && "Self-reported Mental Health Status" %in% names(filtered_data)) {
     p <- p + geom_point(data = filtered_data %>% filter(!is.na(`Self-reported Mental Health Status`)), 
                         aes(x = Age, y = `Self-reported Mental Health Status`), 
                         color = "blue")
   }
   
-  # Add actual scores if checkbox is checked
   if (input$actualScoreCheck && "Impact on Mental Health (Score)" %in% names(filtered_data)) {
     p <- p + geom_point(data = filtered_data %>% filter(!is.na(`Impact on Mental Health (Score)`)), 
                         aes(x = Age, y = `Impact on Mental Health (Score)`), 
                         color = "red")
   }
 
-  # Return the plot
   p
 })
   
