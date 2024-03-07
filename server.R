@@ -16,8 +16,8 @@ data <- read_csv("merged_data_copy.csv", show_col_types = FALSE)
 # Defined the server logic for the Shiny app
 server <- function(input, output) {
   
-  #-------------------------------------------------------------------------------------------------------------------------------------------------
-  # Page 1 - start
+#-------------------------------------------------------------------------------------------------------------------------------------------------
+# Page 1 - start
   
   # Render a plot in the UI output placeholder 'variableDistributionPlot'
   output$variableDistributionPlot <- renderPlot({
@@ -40,16 +40,16 @@ server <- function(input, output) {
   
   
   
-  # Page 1 - end 
-  #--------------------------------------------------------------------------------------------------------------------------------------------------------
+# Page 1 - end 
+#--------------------------------------------------------------------------------------------------------------------------------------------------------
   
-  # you dont have to use the same code but remeber to add the github and stack overflow citation
+# you dont have to use the same code but remeber to add the github and stack overflow citation
   
   
-  #--------------------------------------------------------------------------------------------------------------------------------------------------------
-  # Page 2 - begin 
+#--------------------------------------------------------------------------------------------------------------------------------------------------------
+# Page 2 - begin 
   
-  # Renders yet another plot in the UI output placeholder 'plot'
+# Renders yet another plot in the UI output placeholder 'plot'
   output$plot <- renderPlot({
     filtered_data <- if (input$gender == "All") {
       data
@@ -79,13 +79,13 @@ server <- function(input, output) {
     p
   })
   
-  # Page 2 - end
-  #--------------------------------------------------------------------------------------------------------------------------------------------------------
+# Page 2 - end
+#--------------------------------------------------------------------------------------------------------------------------------------------------------
   
-  # use reactive for this one
+# use reactive for this one
   
-  #--------------------------------------------------------------------------------------------------------------------------------------------------------
-  # Page 3 - begin 
+#--------------------------------------------------------------------------------------------------------------------------------------------------------
+# Page 3 - begin 
   
   # Render an image in the UI output placeholder 'myImage'
   output$myImage <- renderImage({
@@ -118,4 +118,8 @@ server <- function(input, output) {
       labs(x = "Frequency of Seeking Validation", y = "Count", title = "Social Media Validation and Usage Time Based on Relationship Status") +
       theme_minimal()
   })
+  
+# Page 3 - end
+#--------------------------------------------------------------------------------------------------------------------------------------------------------
+  
 }
