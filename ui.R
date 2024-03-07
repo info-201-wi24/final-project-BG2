@@ -8,6 +8,7 @@ library(shinythemes)
 ## OVERVIEW TAB INFO
 overview_tab <- tabPanel("Introduction",
   h1("Exploring the Depths of Social Media's Impact"),
+  h2("By: Yiman Liu, Haiyi Luo, Ash Siwakoti, Thien Tran"),
   p("In the digital age, social media has stayed close onto our lives, raising questions about its impact on mental health and well-being. Our project trys to understand the complex relationship between social media usage patterns and their psychological effects. With increasing screen times and horrible habits, understanding these dynamics has never been more important"),
   p("Our goal is followed by three really important questions, each forming the cornerstone of our analysis. First, we want to understand how age correlates with social media usage and whether certain age groups are more susceptible to its allure. This question aims to shed light on generational differences in social media interaction and its implications."),
   p("Secondly, we get into the realm of self-perception versus reality by looking into how individuals' self-reported mental health assessments compare with their actual mental health scores. This comparison will hopefully let us understand people and the impact social media has on them."),
