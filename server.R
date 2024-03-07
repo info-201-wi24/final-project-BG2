@@ -23,16 +23,16 @@ server <- function(input, output) {
   
   # Rendering the plotly plot
   output$variableDistributionPlot <- renderPlot({
-    # Filter the data based on the selected age range and social media usage
+    # Filter the data based on the selected age range and average social media usage time
     filtered_data <- smmh %>%
       filter(`1. What is your age?` >= input$ageRange[1],
              `1. What is your age?` <= input$ageRange[2],
-             `6. Do you use social media?` == input$socialMediaUsage)
+             `8. What is the average time you spend on social media every day?` == input$socialMediaTimeSpent)
     
     # Create a histogram or bar plot of age distribution for the selected range
     ggplot(filtered_data, aes(x = `1. What is your age?`)) +
-      geom_histogram(binwidth = 1, fill = "dodgerblue", color = "black") +
-      labs(x = "Age", y = "Count") +
+      geom_histogram(binwidth = 1, fill = "red", color = "black") +
+      labs(x = "Age", y = "Social Media Users") +
       xlim(input$ageRange[1], input$ageRange[2]) +  # Set x limits to match the slider input
       theme_minimal() +
       theme(axis.text.x = element_text(angle = 45, hjust = 1))  # Rotate the x labels for better readability
@@ -44,11 +44,6 @@ server <- function(input, output) {
 # Page 1 - end 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  
-  
-  
-  # notes: 
-  
   
   
 
@@ -89,8 +84,6 @@ output$plot <- renderPlot({
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
 
   
-  #Notes: 
-  
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
     # Page 3 - begin 
@@ -100,40 +93,21 @@ output$plot <- renderPlot({
            align = "center",
            width = "100%",
            height = 500)
-      
     }, deleteFile = F)
-    
     filtered_data <-reactive({
       merged_dataset
     })
-    
     filtered_smmh <-reactive({
       smmh[smmh$`3. Relationship Status` %in% input$relationship_status &
              smmh$`8. What is the average time you spend on social media every day?` == input$time_spent, ]
     })
-    
    output$relationshipPlot <- renderPlot({
     filtered_smmh <- smmh %>%
       filter(`3. Relationship Status` %in% input$relationship_status &
                `8. What is the average time you spend on social media every day?` == input$time_spent)
-    
     ggplot(filtered_smmh, aes(x = `17. How often do you look to seek validation from features of social media?`, fill = `3. Relationship Status`)) +
       geom_bar(position = "dodge") +
       labs(x = "Frequency of Seeking Validation", y = "Count", title = "Social Media Validation and Usage Time Based on Relationship Status") +
       theme_minimal()
   })
-    
-    
-    
-  
-# Page 3 - end
-#--------------------------------------------------------------------------------------------------------------------------------------------------------
-  #Notes: 
-  
-  
-  
-
-  
-#--------------------------------------------------------------------------------------------------------------------------------------------------------
-  
 }
